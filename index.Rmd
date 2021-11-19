@@ -41,17 +41,22 @@ class: middle, title-slide
 
 <!-- top logo (comment to remove or edit on `conf/css/style.css:23`) -->
 <div class="lab-logo"></div>
-<!-- <div class="uni-logo"></div> -->
+<div class="uni-logo"></div>
 
-# Title of my talk template
+# Indice Distribution Biodiversité
 
-<hr width="65%" align="left" size="0.3" color="orange"></hr>
+<hr width="60%" align="left" size="0.3" color="orange"></hr>
 
-## My talk subtitle
+## Suivre les changements d'aire <br/> de distribution au fil du temps
 
 ### Vincent Bellavance, .small[Étudiant à la maîtrise]
 
-<br><br><br><br><br>
+<div class="birds" >Photo by <a href="https://unsplash.com/@patriceb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="link_birds" >Patrice Bouchard</a> on <a style="font-size:10px;" href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="link_birds">Unsplash</a></div>
+  
+
+
+
+<br><br>
 [<i class="fa fa-github fa-lg" style="color:#e7e8e2"></i> VincentBellavance/seminar2](https://github.com/VincentBellavance/seminar2)
 
 [<i class="fa fa-twitter fa-lg" style="color:#e7e8e2"></i> @v_bellavance](https://twitter.com/v_bellavance)
@@ -59,47 +64,414 @@ class: middle, title-slide
 
 ---
 # Changements de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-## Plateforme intergouvernementale scientifique et politique sur la biodiversité et les services écosystémiques
+--
 
----
-# Changements de biodiversité
+.pull-left[
+  ![:scale 100%](images/report/gbo5.png)
+]
 
-## Perte de biodiversité à l'échelle globale
+--
 
----
-# Changements de biodiversité
-
-## Complexité de la biodiversité
-
----
-# Changements de biodiversité
-
-## Indicateurs de biodiversité
+.pull-right[
+  ![:scale 100%](images/report/ipbes.png)
+]
 
 ---
 # Changements de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-## Living Planet Index
+<br>
+
+.pull-left[
+.font120[**Terrestres:**]
+
+.font120[
+- L'utilisation du territoire:
+  - Agriculture
+  - Foresterie
+  - Urbanisation
+]
+
+.font120[**Marins:**]
+
+- .font120[La surpêche]
+]
+
+--
+
+.pull-right[
+.font120[**Déclins:**]
+
+.font120[
+- Destruction d’habitats
+- Surexploitation
+- Pollution
+- Introduction d’espèces exotiques
+- Changements climatiques
+]
+]
+
+???
+
+La production de ces deux rapports a accéléré le développement d'indicateurs de biodiversité entamé lors des deux dernières décennies.
 
 ---
-# Changements de biodiversité
 
-## Indicateur à l'échelle nationale
+# Les indicateurs de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 80%](images/indicators/indicator1.png)
+]
+
+???
+
+Les indicateurs font parties des outils qui servent à mesurer les changements de biodiversité.
 
 ---
-# Changements de biodiversité
 
-## Engagement du Québec
+# Les indicateurs de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 80%](images/indicators/indicator2.png)
+]
+
+???
+
+Ils servent à représenter les changements de manière simplifiée
 
 ---
-# Données disponibles au Québec
+
+# Les indicateurs de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.pull-left1[
+  .center2[
+    <br>
+    ![:scale 80%](images/indicators/time_series.png)
+  ]
+]
+
+.pull-right1[
+.font120[
+- Compréhensible
+
+<br>
+- Communicable
+
+<br>
+- Mesure précise
+
+]
+]
+
+???
+
+Ils servent à représenter les changements de manière simplifiée
 
 ---
-# Aires de distribution d'espèces
+
+# Développement d'indicateurs
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.pull-left[
+  <br><br>
+  .center2[
+    ![:scale 100%](images/indicators/bip.jpg)
+  ]
+]
+
+--
+
+.pull-right[
+  <br>
+  ![:scale 90%](images/bip_themes/themes.svg)
+]
+
+???
+
+Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus développé en terme de nombre d'indicateurs est définitivement celui des espèces. 
 
 ---
+
+# Indice Planète Vivante
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.font120[
+- Mesure le changement moyen de la taille des populations de vertébrés depuis 1970
+]
+
+--
+
+.font120[
+- Utilise les suivis de population à long terme:
+  - Mesure **directe ou indirecte** 
+  - Sur **plusieurs années** 
+  - **Même méthodologie** pour une population
+]
+
+--
+
+.font120[
+- Peut-être calculer **globalement**, pour une **région précise** ou pour un **groupe taxonomique**
+]
+
+---
+# Méthodes du LPI
+
+
+---
+
+# Les indicateurs à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.font120[**Indice planète vivante**]
+
+.center[
+  ![:scale 95%](images/global/lpi.png)
+]
+
+.cite[WWF [2020]]
+
+???
+
+Dans le dernier rapport de l'Indice Planète Vivante, il est rapporté que la taille moyenne des populations de vertébrés à travers le monde a diminué de 68%
+
+Ils ont également calculé l'indice selon des grandes régions et il y a une grande variabilité de l'indicateur entre les différentes régions.
+
+---
+
+# Les indicateurs à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![](images/global/europe.png)
+]
+
+.cite[WWF [2020]]
+
+---
+
+# Les indicateurs à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![](images/global/sa.png)
+]
+
+.cite[WWF [2020]]
+
+---
+
+# Les indicateurs à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+- .font180[Déclin globale]
+
+???
+
+Donc, le message du rapport du LPI est qu'il y a un fort déclin des populations de vertébrés dans le monde
+
+--
+
+<br>
+
+- .font180[Mais...]
+
+???
+
+Mais, il y a quelques articles qui viennent nuancer le message du rapport de l'Indice Planète Vivante.
+
+---
+
+# Les indicateurs à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 60%](images/global/dornelas2019.png)
+]
+
+.cite[Dornelas et al. [2019] Ecol. Lett]
+
+???
+
+Dornelas et collaborateur en 2019. Avec le même jeu de données que le LPI, ils ont vu que 85% des populations ont un taux de croissance nul. Le reste des 15% sont en croissance ou en décroissance de manière égale. Au final, Pas de changement net.
+
+---
+
+# Les indicateurs à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 70%](images/global/leung2020.png)
+]
+
+.cite[Leung et al. [2020] Nature]
+
+???
+
+Le grand déclin obtenu avec le LPI n'est en fait que le résultat de quelques populations dont le déclin est extrême. Lorsqu'on retire ces populations, l'indice tourne autour de 1.
+
+---
+
+# Les indicateurs à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.font150[Message plus **nuancé**:]
+
+- .font150[**Grande variabilité** dans les **régions** et les groupes **taxonomiques**]
+
+---
+
+# Les indicateurs à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+- .font150[Biodiversité **diminue**, mais **difficile** de faire un **portrait global**]
+
+???
+
+Les scientifiques s'entendent généralement pour dire que la biodiversité à l'échelle globale diminue. C'est toutefois difficile de faire un portrait global en tenant compte de toute la variabilité dans ces changements.
+
+--
+
+<br>
+
+- .font150[Les **suivis nationaux** sont nécessaires]
+
+???
+
+Les suivis nationaux sont donc nécessaires puisque ça permet d'avoir une idée plus précise de l'état de la biodiversité dans un pays. C'est très important puisque c'est les pays qui vont adopter les politiques de conservation.
+
+---
+
+# Les indicateurs au Canada
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.font120[**Indice planète vivante**]
+
+<br>
+
+.center[
+  ![:scale 90%](images/canada/lpi_can.png)
+]
+
+.cite[WWF Canada [2020]]
+
+---
+
+# Les indicateurs au Canada
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.font120[**Indice des espèces canadiennes**]
+
+<br>
+
+.center[
+  ![:scale 85%](images/canada/iec.png)
+]
+
+.cite[Environnement Canada [2019]]
+
+---
+
+# Les indicateurs au Canada
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.font120[**États des oiseaux du Canada (2019)**]
+
+<br>
+
+.center[
+  ![:scale 95%](images/canada/birds.png)
+]
+
+.cite[IOCAN [2019]]
+
+???
+
+Initiative de conservations des oiseaux de l'Amérique du Nord
+
+Le Canada a plusieurs indicateurs de biodiversité et on peut voir que les changements de biodiversité documenté par les indicateurs sont très différents de ceux à l'échelle globale. Par contre, si on veut avoir une idée de l'état de la biodiversité à l'échelle de la province, on ne peut pas nécessairement les utiliser puisqu'il y a également une grande variabilité dans les changements de biodiversité.
+
+---
+
+# Les suivis de biodiversité au Québec
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+- .font120[**Aucun suivi** de biodiversité à **long terme**]
+
+--
+
+- .font120[Centre de données sur le patrimoine naturel du Québec : **espèces à statut**]
+
+--
+
+- .font120[Manque de données (e.g. **suivis à long terme de populations**)]
+
+--
+
+- .font120[Orientation du gouvernement]
+
+  >.font120[**Évaluation** de la **biodiversité** et **élaboration** d’un **réseau de suivi**]
+
+???
+
+C'est important d'avoir ce genre de suivi, surtout que l'évaluation de la biodiversité et l'élaboration d'un réseau de suivi de la biodiversité fait partie des orientation du gouvernement en matière de biodiversité. 
+
+---
+
+# Questions
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+<br>
+
+> .font110[Quels sont les **changements de biodiversité au Québec** dans les **dernières décennies**?]
+
+<br>
+
+--
+
+<br>
+
+> .font110[Est-il possible de développer un **indice** utilisant les **données d'occurrence et d'abondance** disponibles?]
+
+---
+
 # Objectifs
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+<br>
+.font110[Objectif général:]
+<br><br>
+> **.font120[.center[Développer un indice de changement de biodiversité basé sur les changements de distribution des espèces]]**
+
+<br><br>
+--
+
+.font110[Objectif secondaire:]
+<br><br>
+>**.font120[.center[Développer le pipeline qui permettra d'automatiser le calcul de l'indice avec la base de données ATLAS et de représenter le résultat au moyen d'un outil web interactif]]**
 
 ---
 # Indice Distribution Biodiversité

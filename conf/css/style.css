@@ -1,10 +1,10 @@
 /*title page*/
   .title-slide {
     background-image: url('../../images/bg.jpg');
-    background-color: #23373B;
+    background-color: #273744;
     background-size: contain;
     border: 0px;
-    background-position: 600px 0;
+    background-position: 575px 0;
     line-height: 1;
     padding: 10em 2em 1em 2em!important;
   }
@@ -14,8 +14,8 @@
     position: absolute;
     top:    15px;
     left:   35px;
-    height: 73px;
-    width:  220px;
+    height: 110px;
+    width:  260px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(../../images/IE_logo_renversé.png);
@@ -23,10 +23,10 @@
    .uni-logo {
     content: "";
     position: absolute;
-    top:    32px;
-    left:   243px;
-    height: 34px;
-    width:  220px;
+    top:    19px;
+    left:   300px;
+    height: 110px;
+    width:  240px;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(../../images/udes.png);
@@ -148,6 +148,23 @@ a {
   width: 100%;
 }
 
+/* title slide image citation */
+.birds {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.link_birds {
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+}
+
+
 /* Column */
   .pull-left {
     float: left;
@@ -174,6 +191,20 @@ a {
   .pull-right2 {
     float: right;
     width: 27%;
+  }
+
+  .center2 {
+    margin: 0;
+    position: relative;
+    left: 15%;
+    width: 70%;
+  }
+
+  .center2 {
+    margin: 0;
+    position: relative;
+    left: 10%;
+    width: 80%;
   }
 
 /* Font size */
