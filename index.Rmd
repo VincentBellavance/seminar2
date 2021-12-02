@@ -235,6 +235,7 @@ Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus déve
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 
+
 ---
 
 # Le LPI au Canada
@@ -268,18 +269,25 @@ Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus déve
 ---
 
 # Limites du LPI
+<hr width="100%" align="left" size="1" color="orange"></hr>
 
 <br>
 
-.font120[- N'est pas spatial (changements peuvent avoir une certaine structure spatiale)]
+.font120[
+  - N'est pas spatial (changements peuvent avoir une certaine structure spatiale)
+]
 
 --
 
-.font120[- On en peut voir que les changements nets (**montrer la figure**)]
+.font120[
+  - On en peut voir que les changements nets (**montrer la figure**)
+]
 
 --
 
-.font120[- Suivis de populations difficiles à obtenir]
+.font120[
+  - Suivis de populations difficiles à obtenir
+]
 
 ???
 
@@ -315,36 +323,36 @@ C'est important d'avoir ce genre de suivi, surtout que l'évaluation de la biodi
 ---
 
 # Objectifs
----
-# Questions
 <hr width="100%" align="left" size="1" color="orange"></hr>
-<br>
-
-> .font110[Quels sont les **changements de biodiversité au Québec** dans les **dernières décennies**?]
 
 <br>
+
+>.font120[
+  .center[**Développer un indicateur de changement de biodiversité basé sur les données d'occurrences**]
+]
 
 --
 
 <br>
 
-> .font110[Est-il possible de développer un **indice** utilisant les **données d'occurrence et d'abondance** disponibles?]
+>.font120[
+  .center[**Documenter les changements d'aires de distribution des espèces présentes au Québec**]
+]
+
+--
+
+<br>
+
+>.font120[
+  .center[**Comparer les changements de biodiversité de divers groupes taxonomiques**]
+]
 
 ---
 
-# Objectif général
+class: middle, center, inverse
+
+# Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
-<br>
-.font110[Objectif général:]
-<br><br>
-> **.font120[.center[Développer un indice de changement de biodiversité basé sur les changements de distribution des espèces]]**
-
-<br><br>
---
-
-.font110[Objectif secondaire:]
-<br><br>
->**.font120[.center[Développer le pipeline qui permettra d'automatiser le calcul de l'indice avec la base de données ATLAS et de représenter le résultat au moyen d'un outil web interactif]]**
 
 ---
 
@@ -363,64 +371,83 @@ C'est important d'avoir ce genre de suivi, surtout que l'évaluation de la biodi
 ???
 
 Base de données commencé en 2019, toujours en développement, notamment pour ce qui est de la validation des données et de la taxonomie, et de l'injection de données. 
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[![:scale 40%; position:relative](images/pipeline/pipeline2.png)]
-
-.font110[
-- Atlas overall
-]
-
---
-
-.font110[
-- **Standard d'informations** pour les observations sur la biodiversité au Québec
-]
-
---
-
-.font110[
-- Oiseaux: Données d'eBird, Atlas Oiseaux Nicheurs et BBS
-]
 
 ---
 
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-- Données filtrées (inventaires exhaustifs)
-- Aggréger les données par cellule de xkm * xkm (1 présence dans cellule = présence)
+.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline2.png)]
 
----
-# Aires de distribution
-<hr width="100%" align="left" size="1" color="orange"></hr>
+.font120[
+  - **Standard d'informations** pour les observations sur la biodiversité au Québec
+]
 
-- 1990 à 2020
-- Fenêtre de 5 ans pour faire des modèles temporelles (en attendant autocorrélation temporelle)
-- Autocorrélation spatiale seulement pour décrire la distribution et non l'habitat disponible
-- mapSpecies (explication de l'autocorrélation temporelle?)
+.font120[
+- Proviennent de **plusieurs sources**:
+  - Gouvernementales
+  - Bases de données ouvertes (e.g. GBIF)
+  - Science citoyenne (e.g. eBird)
+]
 
----
+.font120[
+  - 130 millions d'occurrences de plusieurs centaines d'espèces
+]
 
-# Ce qu'on veut obtenir? Indice sur un graphique et indice sur la carte + colonisation/extinction
 ---
 
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.font120[**Calcul de l'aire de distribution**]
+.center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline3.png)]
 
-<br>
+---
 
-.pull-left[
-  ![:scale 95%](images/bdi/bobo_sum.svg)
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline3.png)
+]
+
+.center[
+  ![:scale 45%; position:relative; top: -10vh;](images/method/spoly.png)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline3.png)
+]
+
+.center[
+  ![:scale 45%; position:relative; top: -10vh;](images/method/spolypts.png)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline3.png)
+]
+
+.pull-left-top[
+.font120[
+- eBird
+
+- Atlas des Oiseaux Nicheurs
+
+- Relevé des Oiseaux Nicheurs
+]
 ]
 
 .pull-right[
-  ![:scale 95%](images/bdi/jay_sum.svg)
+  ![:scale 90%; position:relative; top: -10vh;](images/method/spolypts.png)
 ]
 
 ---
@@ -428,33 +455,51 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.font120[**Taux de croissance des aires de chaque espèce**]
+.center[
+  ![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline3.png)
+]
 
-<div style="position: relative; left: -13vh">$$d_t = log_{10}(\frac{A_t}{A_{t-1}}), \;\; A = aires \; de \; distribution$$</div>
+.pull-left-top[
+.font120[
+- eBird
 
---
+- Atlas des Oiseaux Nicheurs
 
-.pull-left[
-  ![:scale 95%](images/bdi/bobo_gr.svg)
+- Relevé des Oiseaux Nicheurs
+
+- Près de **huit millions** de points d'échantillonnages **exhaustifs** **(1990 à 2020)**
+]
 ]
 
 .pull-right[
-  ![:scale 95%](images/bdi/jay_gr.svg)
+  ![:scale 90%; position:relative; top: -10vh;](images/method/spolypts.png)
 ]
 
 ---
 
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
-
-.font120[**Taux de croissance moyen des aires**]
-
-<div style="position: relative; left: -9vh">$$\bar{d}_t = \frac{1}{n} \sum_{i=1}^{n} d_{i,t}, \;\; n = nombre \; d'esp\grave{e}ces$$</div>
-
---
 
 .center[
-  ![:scale 55%](images/bdi/mean_gr.svg)
+  ![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline3.png)
+]
+
+.pull-left-top[
+.font120[
+- eBird
+
+- Atlas des Oiseaux Nicheurs
+
+- Relevé des Oiseaux Nicheurs
+
+- Près de **huit millions** de points d'échantillonnages **exhaustifs** **(1990 à 2020)**
+
+- **Aggréger occurrences** dans cellules de **2km x 2km**
+]
+]
+
+.pull-right[
+  ![:scale 90%; position:relative; top: -10vh;](images/method/spolypts.png)
 ]
 
 ---
@@ -462,25 +507,219 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.font120[**Calcul de l'indice**]
+.center[
+  ![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline3.png)
+]
 
-<div style="position: relative; left: 5vh;">$$I_t = I_{t-1} 10^{\bar{d}_t}$$</div>
+.div-top[
+.font120[- **Aggréger occurrences** dans cellules de **2km x 2km**]
 
 <br>
 
 .center[
-  ![:scale 60%](images/bdi/bdi_final.svg)
+  ![:scale 60%;](images/method/aggregate.svg)
+]
+
 ]
 
 ---
-# Indice Distribution Biodiversité
 
-## Interprétation des résultats
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline3.png)
+]
+
+.div-top[
+
+.font120[
+  - Utilise **l'espace seulement** dans le modèle
+]
+
+<br>
+
+.font120[
+  - **Un modèle par année** de 1992 à 2018
+]
+
+<br>
+
+.font120[
+- **Fenêtre de 5 ans** par modèle
+  - 1992: de 1990 à 1994
+  - 1993: de 1991 à 1995
+  - ...
+]
+]
 
 ---
-# Indice Distribution Biodiversité
 
-## Limites
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline4.png)]
 
 ---
-# Conclusion et contributions
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline4.png)]
+
+.div-top[
+.center[
+  ![:scale 50%;](images/method/cardinalis_cardinalis.gif)
+]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline4.png)]
+
+<br>
+
+.div-top[
+.center[
+  ![:scale 65%;](images/bdi/calc_aire1.svg)
+]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline4.png)]
+
+<br>
+
+.div-top[
+.center[
+  ![:scale 65%;](images/bdi/calc_aire2.svg)
+]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline4.png)]
+
+.div-top[
+.center[
+  ![](images/method/areas.png)
+]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline4.png)]
+
+.div-top[
+  .center[
+    ![:scale 80%;](images/method/index_cardinalis.png)
+  ]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline4.png)]
+
+.div-top[
+  .center[
+    ![:scale 80%;](images/method/split_index.png)
+  ]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline4.png)]
+
+.div-top[
+  .center[
+    ![:scale 80%;](images/method/composite_index.png)
+  ]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline4.png)]
+
+- Peut donc calculer pour groupe d'espèces
+
+- Peut être spatialisé (montrer image)
+  
+---
+
+class: middle, center, inverse
+
+# Résultats
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+---
+
+# Résultats
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 80%](images/results/global.pdf)
+]
+
+---
+
+# Résultats
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 80%](images/results/map.pdf)
+]
+
+---
+
+# Résultats
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 80%](images/results/local.pdf)
+]
+
+---
+
+# Résultats
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 80%](images/results/global_groups.pdf)
+]
+
+---
+
+# Discussion
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+LPI:
+  - N'est pas spatial
+  - Pas de changement net
+  - Représentation limité des espèces
+  - Time-series très limité
+  - D'autres limites connues, dont Leung, valeur max ont beaucoup d'influences
+
+LPI: Incertitude, vs SDMs
+
