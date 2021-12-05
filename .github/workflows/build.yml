@@ -8,6 +8,8 @@ name: Build
 jobs:
   Build_deploy:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@master
       - uses: r-lib/actions/setup-pandoc@v1
