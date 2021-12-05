@@ -235,6 +235,49 @@ Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus déve
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 
+---
+
+# Le LPI au niveau global
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.center[
+  ![:scale 80%;](images/global/lpi.png)
+]
+
+---
+
+# Le LPI au niveau global
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.center[
+  ![:scale 90%;](images/global/lpi_regions.png)
+]
+
+---
+
+# Critiques du LPI
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.center[
+  ![:scale 60%;](images/global/dornelas2019.png)
+]
+
+---
+
+# Critiques du LPI
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.center[
+  ![:scale 70%;](images/global/leung2020.png)
+]
 
 ---
 
@@ -246,14 +289,14 @@ Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus déve
 <br>
 
 .center[
-  ![:scale 90%](images/canada/lpi_can.png)
+  ![:scale 90%](images/canada/lpi_can.svg)
 ]
 
 .cite[WWF Canada [2020]]
 
 ---
 
-# Le LPI au canada
+# Le LPI au Canada
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 .font120[**Indice des espèces canadiennes**]
@@ -268,30 +311,14 @@ Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus déve
 
 ---
 
-# Limites du LPI
+# Oiseaux
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 <br>
 
-.font120[
-  - N'est pas spatial (changements peuvent avoir une certaine structure spatiale)
+.center[
+  ![](images/canada/birds.svg)
 ]
-
---
-
-.font120[
-  - On en peut voir que les changements nets (**montrer la figure**)
-]
-
---
-
-.font120[
-  - Suivis de populations difficiles à obtenir
-]
-
-???
-
-Les données sont un problème lorsque vient le temps de calculer l'indicateur dans une province comme le Québec
 
 ---
 
@@ -300,13 +327,9 @@ Les données sont un problème lorsque vient le temps de calculer l'indicateur d
 
 <br>
 
-- .font120[Peu de suivis de populations à long terme au Québec]
-
---
-
 - .font120[Orientation du gouvernement]
 
-  >.font120[**Évaluation** de la **biodiversité** et **élaboration** d’un **réseau de suivi**]
+>.font120[**Évaluation** de la **biodiversité** et **élaboration** d’un **réseau de suivi**]
 
 --
 
@@ -319,6 +342,33 @@ Les données sont un problème lorsque vient le temps de calculer l'indicateur d
 ???
 
 C'est important d'avoir ce genre de suivi, surtout que l'évaluation de la biodiversité et l'élaboration d'un réseau de suivi de la biodiversité fait partie des orientation du gouvernement en matière de biodiversité. 
+
+---
+
+# Limites du LPI
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.font120[
+  - Suivis de populations difficiles à obtenir
+]
+
+--
+
+.font120[
+  - N'est pas spatial (changements peuvent avoir une certaine structure spatiale)
+]
+
+--
+
+.font120[
+  - On en peut voir que les changements nets (**montrer la figure**)
+]
+
+???
+
+Les données sont un problème lorsque vient le temps de calculer l'indicateur dans une province comme le Québec
 
 ---
 
@@ -359,14 +409,14 @@ class: middle, center, inverse
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline1.png)]
+.center[![:scale 95%; position:relative; top: 4.5em;](images/pipeline/pipeline1.svg)]
 
 ---
 
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline2.png)]
+.center[![:scale 95%; position:relative; top: 4.5em;](images/pipeline/pipeline2.svg)]
 
 ???
 
@@ -377,8 +427,9 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline2.png)]
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline2.svg)]
 
+.div-top[
 .font120[
   - **Standard d'informations** pour les observations sur la biodiversité au Québec
 ]
@@ -393,25 +444,6 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 .font120[
   - 130 millions d'occurrences de plusieurs centaines d'espèces
 ]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline3.png)]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline3.png)
-]
-
-.center[
-  ![:scale 45%; position:relative; top: -10vh;](images/method/spoly.png)
 ]
 
 ---
@@ -419,12 +451,19 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
+.center[![:scale 95%; position:relative; top: 4.5em;](images/pipeline/pipeline3.svg)]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
 .center[
-  ![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline3.png)
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
 ]
 
 .center[
-  ![:scale 45%; position:relative; top: -10vh;](images/method/spolypts.png)
+  ![:scale 45%; position: relative; top: -4em;](images/method/spoly.png)
 ]
 
 ---
@@ -433,7 +472,20 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 .center[
-  ![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline3.png)
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+.center[
+  ![:scale 45%; position: relative; top: -4em;](images/method/spolypts.png)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
 ]
 
 .pull-left-top[
@@ -447,7 +499,7 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 ]
 
 .pull-right[
-  ![:scale 90%; position:relative; top: -10vh;](images/method/spolypts.png)
+  ![:scale 90%; position:relative; top: -4em;](images/method/spolypts.png)
 ]
 
 ---
@@ -456,32 +508,7 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 .center[
-  ![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline3.png)
-]
-
-.pull-left-top[
-.font120[
-- eBird
-
-- Atlas des Oiseaux Nicheurs
-
-- Relevé des Oiseaux Nicheurs
-
-- Près de **huit millions** de points d'échantillonnages **exhaustifs** **(1990 à 2020)**
-]
-]
-
-.pull-right[
-  ![:scale 90%; position:relative; top: -10vh;](images/method/spolypts.png)
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline3.png)
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
 ]
 
 .pull-left-top[
@@ -493,13 +520,11 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 - Relevé des Oiseaux Nicheurs
 
 - Près de **huit millions** de points d'échantillonnages **exhaustifs** **(1990 à 2020)**
-
-- **Aggréger occurrences** dans cellules de **2km x 2km**
 ]
 ]
 
 .pull-right[
-  ![:scale 90%; position:relative; top: -10vh;](images/method/spolypts.png)
+  ![:scale 90%; position:relative; top: -4em;](images/method/spolypts.png)
 ]
 
 ---
@@ -508,48 +533,25 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 .center[
-  ![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline3.png)
-]
-
-.div-top[
-.font120[- **Aggréger occurrences** dans cellules de **2km x 2km**]
-
-<br>
-
-.center[
-  ![:scale 60%;](images/method/aggregate.svg)
-]
-
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline3.png)
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
 ]
 
 .div-top[
 
 .font120[
-  - Utilise **l'espace seulement** dans le modèle
+  - Modèle suppose qu'il y a équilibre entre espèce et environnement. On souhaite voir les changements d'aires de distribution causées par les changements d'environnement. 
 ]
 
 <br>
 
 .font120[
-  - **Un modèle par année** de 1992 à 2018
+  - On veut décrire la dfistribution de l'espèce et non modéliser l'habitat disponible de l'espèce
 ]
 
 <br>
 
 .font120[
-- **Fenêtre de 5 ans** par modèle
-  - 1992: de 1990 à 1994
-  - 1993: de 1991 à 1995
-  - ...
+  - Donc, on veut utiliser l'espace et le temps
 ]
 ]
 
@@ -558,14 +560,119 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline4.png)]
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+.div-top[
+  .font120[
+    **Autocorrélation spatiale**
+  ]
+]
+
+.center[
+  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr1.svg)
+]
 
 ---
 
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline4.png)]
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+.div-top[
+  .font120[
+    **Autocorrélation spatiale**
+  ]
+]
+
+.center[
+  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr2.svg)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+.div-top[
+  .font120[
+    **Autocorrélation spatiale**
+  ]
+]
+
+.center[
+  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr3.svg)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+.div-top[
+  .font120[
+    **Autocorrélation spatiale**
+  ]
+]
+
+.center[
+  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr4.svg)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+.div-top[
+  .font120[
+    **Lisser distribution dans le temps**
+  ]
+]
+
+.center[
+  ![:scale 65%; position: relative; top: -3em;](images/method/time_corr.svg)
+]
+
+--
+
+<br>
+
+.div-top[
+.font120[
+  > **Équivalent du GAM pour le LPI**
+]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 95%; position:relative; top: 4.5em;](images/pipeline/pipeline4.svg)]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
 
 .div-top[
 .center[
@@ -578,7 +685,7 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline4.png)]
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
 
 <br>
 
@@ -593,7 +700,7 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline4.png)]
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
 
 <br>
 
@@ -608,7 +715,7 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline4.png)]
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
 
 .div-top[
 .center[
@@ -621,7 +728,7 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline4.png)]
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
 
 .div-top[
   .center[
@@ -634,7 +741,20 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline4.png)]
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
+
+.div-top[
+  .center[
+    ![:scale 80%;](images/method/delta_cardinalis.png)
+  ]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
 
 .div-top[
   .center[
@@ -647,7 +767,7 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline4.png)]
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
 
 .div-top[
   .center[
@@ -660,7 +780,7 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.center[![:scale 25%; position:relative; left: 30vh; top: -11vh;](images/pipeline/pipeline4.png)]
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
 
 - Peut donc calculer pour groupe d'espèces
 
@@ -679,7 +799,7 @@ class: middle, center, inverse
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 .center[
-  ![:scale 80%](images/results/global.pdf)
+  ![](images/results/quebec.png)
 ]
 
 ---
@@ -688,7 +808,7 @@ class: middle, center, inverse
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 .center[
-  ![:scale 80%](images/results/map.pdf)
+  ![](images/results/quebec_delta.png)
 ]
 
 ---
@@ -697,7 +817,7 @@ class: middle, center, inverse
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 .center[
-  ![:scale 80%](images/results/local.pdf)
+  ![:scale 55%](images/results/col.png)
 ]
 
 ---
@@ -706,7 +826,25 @@ class: middle, center, inverse
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 .center[
-  ![:scale 80%](images/results/global_groups.pdf)
+  ![:scale 55%](images/results/ext.png)
+]
+
+---
+
+# Résultats
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![](images/results/quebec_species.png)
+]
+
+---
+
+# Résultats
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![](images/canada/birds.png)
 ]
 
 ---

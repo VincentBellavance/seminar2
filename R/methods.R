@@ -94,6 +94,23 @@ ggplot2::ggsave(plot = p,
                 width = 12)
 
 
+#######################
+# Expansion/Contraction
+#######################
+
+cardinalis <- list(cardinalis)
+names(cardinalis) <- "cardinalis_cardinalis"
+
+bdi_df <- calc_bdi(cardinalis)
+
+p <- plot_delta(bdi_df)
+
+ggplot2::ggsave(plot = p, 
+                filename = "images/method/delta_cardinalis.png", 
+                device = "png",
+                height = 7,
+                width = 12)
+
 ######################
 # For multiple species
 ######################
@@ -137,7 +154,9 @@ p <- ggplot2::ggplot() +
                    title = "Indice de Distribution Biodiversité pour trois espèces") +
      ggplot2::scale_y_continuous(breaks = c(0.5, 1, 1.5, 2, 5, 10, 20), trans = "log", limits = c(0.5,20)) +
      ggplot2::scale_x_continuous(breaks = function(x) seq(ceiling(x[1])+1, floor(x[2]-1), by = 5)) + # round to integer, since the x axis is years 
-     plot_theme()
+     plot_theme() +
+     theme(legend.position = c(0.85, 0.55)) +
+     scale_colour_manual(values = as.vector(pal()$ts))
 
 ggplot2::ggsave(plot = p, 
                 filename = "images/method/split_index.png", 
