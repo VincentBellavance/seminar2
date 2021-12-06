@@ -234,6 +234,72 @@ Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus déve
 # Méthodes du LPI
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
+<br>
+
+.pull-left[
+  .center[
+  .font120[
+    **Données d'abondance**
+  ]
+  ]
+
+  ![](images/lpi/data.svg)
+]
+
+--
+
+.pull-right[
+  .center[
+  .font120[
+    **Tendance modélisée avec GAM**
+  ]
+  ]
+
+  ![](images/lpi/gam.svg)
+]
+
+---
+
+# Méthodes du LPI
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.pull-left[
+.font120[
+- Permet d'avoir des tendances de populations **non-linéaires**
+
+<br>
+
+- Permet d'avoir des **valeurs de taille de poulation** pour les **années sans données** 
+]
+]
+
+.pull-right[
+  .center[
+  .font120[
+    **Tendance modélisée avec GAM**
+  ]
+  ]
+
+  ![](images/lpi/gam.svg)
+]
+
+---
+# Méthodes du LPI
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.font120[
+  - Ramène la tendance de population avec la première année à 1
+]
+
+<br>
+
+.font120[
+  - On inclut les autres populations en faisant une moyenne des tendances de chaque population pour chaque année
+]
 
 ---
 
@@ -782,10 +848,16 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 
 .center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
 
-- Peut donc calculer pour groupe d'espèces
+.font120[
+  - Visualiser expansion/contraction de l'aire de distribution pour chaque cellule
+]
 
-- Peut être spatialisé (montrer image)
-  
+<br>
+
+.font120[
+  - Permet de voir les changements sur l'ensemble du territoire
+]
+
 ---
 
 class: middle, center, inverse
@@ -840,11 +912,22 @@ class: middle, center, inverse
 
 ---
 
-# Résultats
+# Discussion
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.center[
-  ![](images/canada/birds.png)
+.font120[
+- Les augmentations plus faciles à visualiser que les contractions (agrégation des données?)
+]
+
+.font120[
+  - Certains modèles ne convergent pas
+]
+
+.font120[
+- Pratiquement pas d'informations au nord
+  - Calculer l'indice seulement pour le sud du Québec?
+  - Ajouter données de modèles d'experts
+  - Doit avoir une incertitude
 ]
 
 ---
@@ -852,12 +935,28 @@ class: middle, center, inverse
 # Discussion
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-LPI:
-  - N'est pas spatial
-  - Pas de changement net
-  - Représentation limité des espèces
-  - Time-series très limité
-  - D'autres limites connues, dont Leung, valeur max ont beaucoup d'influences
+<br>
 
-LPI: Incertitude, vs SDMs
+- L'utilisation des SDMs permet d'avoir une incertitude plus "réaliste" que l'incertitude de lPI:
+  - Incertitude sur la moyenne
+  - Incertitude sur le modèle:
+    - biais d'obs / détection (science citoyenne)
+    - enviro
+    - paramétrisation du modèle
+    - processus (random pop fluctuations)
 
+---
+
+# Conclusion
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+Indicateurs qui utilisent aires de distribution
+
+- On peut observé les changements brutes (expansion/contraction)
+- L'indice peut être spatialisé
+
+- Permettrait de faire des prédictions sur l'indicateur dans le temps:
+  - Scénario de changements climatiques ou d'utilisation du territoire
+  - Important dans l'optique d'avoir des objectifs de conservation de la biodiversité
