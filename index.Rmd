@@ -944,12 +944,12 @@ class: middle, center, inverse
 .font120[
 - Données science citoyenne: **nombreux biais**
 
-- Bruit dans les modèles:
+- **Bruit** dans les modèles:
   - Qualité de l'indicateur dépend directement de la qualité des modèles
 
-- Pratiquement aucune information pour le nord du Québec
+- Pratiquement **aucune information** pour le **nord du Québec**
 
-- Aucune incertitude sur l'indice
+- **Aucune incertitude** sur l'indice
 ]
 
 ---
@@ -984,10 +984,21 @@ class: middle, center, inverse
   - **Incertitude** sur le **modèle** et sur la **moyenne**
 ]
 
+---
+
+# Futur application
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.font120[
+- **Prédictions dans le temps**
+]
+
 --
 
 .font120[
-- Application: **Prédictions** dans le **temps**
+  - Scénarios de **perturbations** ou **d'actions de conservation**
+
+  - Fixer **objectifs de conservations**
 ]
 
 ---
@@ -1023,101 +1034,15 @@ Mark Vellend
 
 ]
 
-
----
-
-################################################################################################################################
-################################################################################################################################
-################################################################################################################################
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 # Méthodes du LPI
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-<br>
-
-.pull-left[
-  .center[
-  .font120[
-    **Données d'abondance**
-  ]
-  ]
-
-  ![](images/lpi/data.svg)
+.center[
+  ![](images/method/method_lpi.png)
 ]
 
---
-
-.pull-right[
-  .center[
-  .font120[
-    **Tendance modélisée avec GAM**
-  ]
-  ]
-
-  ![](images/lpi/gam.svg)
-]
-
----
-
-# Méthodes du LPI
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-<br>
-
-.pull-left[
-.font120[
-- Permet d'avoir des tendances de populations **non-linéaires**
-
-<br>
-
-- Permet d'avoir des **valeurs de taille de poulation** pour les **années sans données** 
-]
-]
-
-.pull-right[
-  .center[
-  .font120[
-    **Tendance modélisée avec GAM**
-  ]
-  ]
-
-  ![](images/lpi/gam.svg)
-]
-
----
-# Méthodes du LPI
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-<br>
-
-.font120[
-- Pour chaque année:
-  
-  - Calcul les taux de croissance de chaque espèce séparemment
-  
-  - Moyenne des taux de croissance de chaque espèce
-  
-  - Multiplie cette moyenne à la valeur de l'indice de l'année précédente
-
-  - Première année: indice de 1
-]
+.cite[Buschke et al. 2021 Nat. Ecol. Evol.]
 
 ---
 
@@ -1139,6 +1064,17 @@ Mark Vellend
 
 .center[
   ![:scale 70%;](images/global/leung2020.png)
+]
+
+---
+
+# Critiques du LPI
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.center[
+  ![:scale 70%;](images/lpi/leung2_2020.png)
 ]
 
 ---
