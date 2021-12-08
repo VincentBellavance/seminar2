@@ -27,11 +27,20 @@ plot_theme <- function() {
 }
 
 ##################
+# Save qc as svg
+##################
+
+qc <- readRDS("data/qc_spacePoly.rds")
+svg("images/method/qc.svg", height = 9)
+plot(qc)
+dev.off()
+
+
+##################
 # Make GIF images
 ##################
 
-cardinalis <- raster::stack("data/cardinalis.gri")
-map_sdm_gif(cardinalis, dir.out = "images/method", "cardinalis_cardinalis", "p(occ)")
+#map_sdm_gif(cardinalis, dir.out = "images/method", "cardinalis_cardinalis", "p(occ)")
 
 
 ##################
@@ -50,9 +59,9 @@ p <- ggplot2::ggplot() +
      ggplot2::geom_line(data = areas,
                         ggplot2::aes(x = years, y = areas),
                         lwd = .7) + 
-     ggplot2::labs(y = "Aires de distribution (km²)", 
+     ggplot2::labs(y = "Aire de distribution (km²)", 
                    x = "Années", 
-                   title = "Aires de distribution du Cardinal Rouge de 1992 à 2018") +
+                   title = "Aires de distribution du cardinal rouge de 1992 à 2018") +
      ggplot2::ylim(round(min(areas$areas) - 1000, digits = -3), round(max(areas$areas) + 1000, digits = -3)) +
      ggplot2::scale_x_continuous(breaks = function(x) seq(ceiling(x[1])+1, floor(x[2]-1), by = 5)) + # round to integer, since the x axis is years 
      plot_theme()
@@ -80,9 +89,9 @@ p <- ggplot2::ggplot() +
                          lty = 1,
                          col = "grey20",
                          lwd = .2) + 
-     ggplot2::labs(y = "Indice", 
+     ggplot2::labs(y = "Valeur de l'indice", 
                    x = "Années", 
-                   title = "Indice de Distribution Biodiversité du Cardinal Rouge") +
+                   title = "Indice de Distribution Biodiversité du cardinal rouge") +
      ggplot2::scale_y_continuous(breaks = c(0.5, 1, 1.5, 2), trans = "log", limits = c(0.5,2)) +
      ggplot2::scale_x_continuous(breaks = function(x) seq(ceiling(x[1])+1, floor(x[2]-1), by = 5)) + # round to integer, since the x axis is years 
      plot_theme()
@@ -103,7 +112,28 @@ names(cardinalis) <- "cardinalis_cardinalis"
 
 bdi_df <- calc_bdi(cardinalis)
 
-p <- plot_delta(bdi_df)
+p <- ggplot2::ggplot() +
+       # plot col in blue and ext in orange
+       ggplot2::geom_line(data = bdi_df[-1,],
+                          ggplot2::aes(x = years, y = ext, group = 1),
+                          col = pal()$ts["ext"],
+                          lwd = .7) +
+       ggplot2::geom_line(data = bdi_df[-1,],
+                      ggplot2::aes(x = years, y = col, group = 1),
+                      col = pal()$ts["col"],
+                      lwd = .7) +
+       # baseline reference
+       ggplot2::geom_hline(yintercept = 0,
+                           lty = 1,
+                           col = "grey20",
+                           lwd = .2) +
+       ggplot2::labs(y = "Taux de croissance", 
+                     x = "Années", 
+                     title = "Augmentation et réduction de l'aire de distribution") +
+       ggplot2::scale_x_continuous(breaks = function(x) seq(ceiling(x[1]+1), floor(x[2]-1), by = 5)) + # round to integer, since the x axis is years 
+       ggplot2::ylim(-0.5, 0.5) +
+       plot_theme()
+
 
 ggplot2::ggsave(plot = p, 
                 filename = "images/method/delta_cardinalis.png", 
@@ -139,19 +169,20 @@ areas_dolichonyx[1, "index"] <- 1
 areas_dolichonyx[2:nrow(areas_dolichonyx), "index"] <- areas_dolichonyx[2:nrow(areas_dolichonyx), "areas"]/areas_dolichonyx[1, "areas"]
 
 areas <- rbind(areas, areas_dolichonyx, areas_antigone)
+colnames(areas)[3] <- "Espèces"
 
 p <- ggplot2::ggplot() +
      # plot all taxa trends in green
      ggplot2::geom_line(data = areas,
-                        ggplot2::aes(x = years, y = index, color = species),
+                        ggplot2::aes(x = years, y = index, color = Espèces),
                         lwd = .7) +
      ggplot2::geom_hline(yintercept = 1,
                          lty = 1,
                          col = "grey20",
                          lwd = .2) +
-     ggplot2::labs(y = "Aires de distribution (km²)", 
+     ggplot2::labs(y = "Aire de distribution (km²)", 
                    x = "Années", 
-                   title = "Indice de Distribution Biodiversité pour trois espèces") +
+                   title = "Indice de Distribution Biodiversité") +
      ggplot2::scale_y_continuous(breaks = c(0.5, 1, 1.5, 2, 5, 10, 20), trans = "log", limits = c(0.5,20)) +
      ggplot2::scale_x_continuous(breaks = function(x) seq(ceiling(x[1])+1, floor(x[2]-1), by = 5)) + # round to integer, since the x axis is years 
      plot_theme() +
@@ -181,7 +212,7 @@ for(i in 1993:2018) {
 p <- ggplot2::ggplot() +
      # plot all taxa trends in green
      ggplot2::geom_line(data = areas,
-                        ggplot2::aes(x = years, y = index, group = species),
+                        ggplot2::aes(x = years, y = index, group = Espèces),
                         col = "grey40",
                         lwd = .7) + 
      ggplot2::geom_line(data = bdi,
@@ -192,9 +223,9 @@ p <- ggplot2::ggplot() +
                          lty = 1,
                          col = "grey20",
                          lwd = .2) +
-     ggplot2::labs(y = "Aires de distribution (km²)", 
+     ggplot2::labs(y = "Aire de distribution (km²)", 
                    x = "Années", 
-                   title = "Indice de Distribution Biodiversité pour trois espèces") +
+                   title = "Indice de Distribution Biodiversité") +
      ggplot2::scale_y_continuous(breaks = c(0.5, 1, 1.5, 2, 5, 10, 20), trans = "log", limits = c(0.5,20)) +
      ggplot2::scale_x_continuous(breaks = function(x) seq(ceiling(x[1])+1, floor(x[2]-1), by = 5)) + # round to integer, since the x axis is years 
      plot_theme()

@@ -49,7 +49,7 @@ class: middle, title-slide
 
 <hr width="60%" align="left" size="1" color="orange"></hr>
 
-## Suivre les changements d'aire <br/> de distribution au fil du temps
+## Suivre les changements d'aire <br/> de distribution des espèces du Québec dans le temps
 
 ### Vincent Bellavance, .small[étudiant à la maîtrise]
 
@@ -58,13 +58,14 @@ class: middle, title-slide
 
 
 
-<br><br>
+<br>
 [<i class="fa fa-github fa-lg" style="color:#e7e8e2"></i> VincentBellavance/seminar2](https://github.com/VincentBellavance/seminar2)
 
 [<i class="fa fa-twitter fa-lg" style="color:#e7e8e2"></i> @v_bellavance](https://twitter.com/v_bellavance)
 
 
 ---
+
 # Changements de biodiversité
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
@@ -72,23 +73,37 @@ class: middle, title-slide
   ![:scale 100%](images/report/ipbes.png)
 ]
 
---
+<br><br>
+
+.pull-right[
+  .font120[
+    Plateforme intergouvernementale scientifique et politique sur la biodiversité et les services écosystémiques
+  ]
+]
+
+.cite[IPBES 2019]
+
+---
+
+# Changements de biodiversité
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.pull-left[
+  ![:scale 100%](images/report/ipbes.png)
+]
 
 <br><br>
 
 .pull-right[
 .font120[**Déclins:**]
 
-.font120[
-- Destruction d’habitats
-- Surexploitation
-- Pollution
-- Introduction d’espèces exotiques
-- Changements climatiques
-]
+.font120[**1 millions** d'espèces menacées d'extinction]
 ]
 
+.cite[IPBES 2019]
+
 ---
+
 # Changements de biodiversité
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
@@ -96,13 +111,37 @@ class: middle, title-slide
   ![:scale 100%](images/report/gbo5.png)
 ]
 
+.cite[CBD 2020]
+
 --
+
+<br><br>
+
+.pull-right[
+.font120[
+- Parties de la Convention sur la Diversité Biologique
+- 160 pays signataires
+- 196 parties
+- Vise la conservation de la biodiversité.
+]
+]
+
+---
+
+# Changements de biodiversité
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.pull-left[
+  ![:scale 100%](images/report/gbo5.png)
+]
 
 <br><br>
 
 .pull-right[
   ![:scale 100%](images/report/aichi_cbd.png)
 ]
+
+.cite[CBD 2020]
 
 ???
 
@@ -122,6 +161,8 @@ La production de ces deux rapports a accéléré le développement d'indicateurs
 .pull-right[
   ![:scale 100%](images/report/aichi_fail.png)
 ]
+
+.cite[CBD 2020]
 
 ---
 # Les indicateurs de biodiversité
@@ -195,7 +236,28 @@ Ils servent à représenter les changements de manière simplifiée
   ]
 ]
 
---
+<br><br>
+
+.pull-right[
+.font120[**Biodiversity indicators partnership**]
+
+.font120[
+  Approuvée par la Convention sur la Diversité Biologique
+]
+
+]
+
+---
+
+# Développement d'indicateurs
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.pull-left[
+  <br><br>
+  .center2[
+    ![:scale 100%](images/indicators/bip.jpg)
+  ]
+]
 
 .pull-right[
   <br>
@@ -215,6 +277,8 @@ Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus déve
 - Mesure le changement moyen de la taille des populations de vertébrés depuis 1970
 ]
 
+.cite[Collen et al. 2009 Conserv. Biol.]
+
 --
 
 .font120[
@@ -227,8 +291,760 @@ Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus déve
 --
 
 .font120[
-- Peut-être calculer **globalement**, pour une **région précise** ou pour un **groupe taxonomique**
+- Peut-être calculé **globalement**, pour une **région précise** ou pour un **groupe taxonomique**
 ]
+
+---
+
+# Indice Planète Vivante au niveau global
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.center[
+  ![:scale 80%;](images/global/lpi.png)
+]
+
+.cite[WWF 2020]
+
+---
+
+# Indice des espèces canadiennes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.font120[**(Environnement Canada)**]
+
+<br>
+
+.center[
+  ![:scale 85%](images/canada/iec.png)
+]
+
+.cite[Environnement Canada [2019]]
+
+---
+
+# Les suivis de biodiversité au Québec
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+- .font120[Orientation du gouvernement en réponse au Plan stratégique 2011-2020 de la Convention sur la Diversité Biologique]
+
+>.font120[**Évaluation** de la **biodiversité** et **élaboration** d’un **réseau de suivi**]
+
+--
+
+.center[
+  ![:scale 85%; position: relative; top: -3.2em;](images/quebec/bdqc.svg)
+]
+
+???
+
+C'est important d'avoir ce genre de suivi, surtout que l'évaluation de la biodiversité et l'élaboration d'un réseau de suivi de la biodiversité fait partie des orientation du gouvernement en matière de biodiversité. 
+
+---
+
+# Les suivis de biodiversité au Québec
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.pull-left[
+  ![](images/quebec/berteaux_title.png)
+]
+
+--
+
+<br>
+
+.pull-right[
+  ![](images/quebec/berteaux2018.svg)
+]
+
+.cite[Berteaux et al. 2018 Sci. Rep.]
+
+---
+
+# Les suivis de biodiversité au Québec
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+![:scale 65%;](images/quebec/lpi.svg)
+]
+
+---
+
+# Les suivis de biodiversité au Québec
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.pull-left[
+  ![](images/quebec/lpi.svg)
+]
+
+--
+
+.pull-right[
+.font120[
+- Peu de longs suivis de population
+
+- On ne peut extrapoler dans l'espace
+]
+]
+
+---
+
+# Objectifs
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+>.font120[
+  .center[**Développer un indicateur de changement de biodiversité basé sur les données d'occurrences**]
+]
+
+--
+
+<br>
+
+>.font120[
+  .center[**Documenter les changements d'aires de distribution des espèces présentes au Québec**]
+]
+
+--
+
+<br>
+
+>.font120[
+  .center[**Comparer les changements d'aires de distribution de divers groupes fonctionnels**]
+]
+
+---
+
+class: middle, center, inverse
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 50%;](images/method/qc1.svg)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 50%;](images/method/qc2.svg)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 100%;](images/method/qc_model1.svg)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 100%;](images/method/qc_model2.svg)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 100%;](images/method/qc_model3.svg)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 100%;](images/method/qc_model4.svg)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 100%;](images/method/qc_model5.svg)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 95%; position:relative; top: 4.5em;](images/pipeline/pipeline1.svg)]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 95%; position:relative; top: 4.5em;](images/pipeline/pipeline2.svg)]
+
+???
+
+Base de données commencé en 2019, toujours en développement, notamment pour ce qui est de la validation des données et de la taxonomie, et de l'injection de données. 
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline2.svg)]
+
+.div-top[
+.font120[
+  - **Standard d'informations** pour les observations sur la biodiversité au Québec
+]
+
+.font120[
+- Proviennent de **plusieurs sources**:
+  - Gouvernementales
+  - Bases de données ouvertes (e.g. GBIF)
+  - Science citoyenne (e.g. eBird)
+]
+
+.font120[
+  - 130 millions d'occurrences de centaines d'espèces
+]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 95%; position:relative; top: 4.5em;](images/pipeline/pipeline3.svg)]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+.center[
+  ![:scale 45%; position: relative; top: -4em;](images/method/spoly.png)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+.center[
+  ![:scale 45%; position: relative; top: -4em;](images/method/spolypts.png)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+.pull-left-top[
+.font120[
+- eBird
+  
+- Atlas des Oiseaux Nicheurs
+
+- Relevé des Oiseaux Nicheurs
+]
+]
+
+.pull-right[
+  ![:scale 90%; position:relative; top: -4em;](images/method/spolypts.png)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+.pull-left-top[
+.font120[
+- Environ **huit millions** de points d'échantillonnages **exhaustifs** **(1990 à 2020)**
+
+- Moyenne de **260000 points/année**
+
+- **282 espèces** d'oiseaux **nicheurs** du Québec
+]
+]
+
+.pull-right[
+  ![:scale 90%; position:relative; top: -4em;](images/method/spolypts.png)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+.div-top[
+
+.font120[
+  - Modèle suppose qu'il y a équilibre entre espèce et environnement. On souhaite voir les changements d'aires de distribution causées par les changements d'environnement. 
+]
+
+<br>
+
+.font120[
+  - On veut décrire la dfistribution de l'espèce et non modéliser l'habitat disponible de l'espèce
+]
+
+<br>
+
+.font120[
+  - Donc, on modélise seulement avec l'espace et le temps
+]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+.div-top[
+  .font120[
+    **Autocorrélation spatiale**
+  ]
+]
+
+.center[
+  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr1.svg)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+.div-top[
+  .font120[
+    **Autocorrélation spatiale**
+  ]
+]
+
+.center[
+  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr4.svg)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+.div-top[
+  .font120[
+    **Lisser distribution dans le temps**
+  ]
+]
+
+.center[
+  ![:scale 65%; position: relative; top: -3em;](images/method/time_corr.svg)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 95%; position:relative; top: 4.5em;](images/pipeline/pipeline4.svg)]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
+
+.div-top[
+.center[
+  ![:scale 50%;](images/method/cardinalis_cardinalis.gif)
+]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
+
+.div-top[
+.center[
+  ![](images/method/areas.png)
+]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
+
+.div-top[
+  .center[
+    ![:scale 80%;](images/method/index_cardinalis.png)
+  ]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+#### Augmentation et diminution des aires de distribution
+
+--
+
+.pull-left[
+  ![:scale 90%](images/bdi/col1.svg)
+]
+
+--
+
+<br><br>
+
+.pull-right[
+  .font120[Augmentation de 11% de l'aire de la cellule]
+]
+
+--
+
+.pull-left[
+  ![:scale 90%; position: relative; top: 1em;](images/bdi/ext1.svg)
+]
+
+--
+
+<br><br><br><br><br><br><br><br>
+
+.pull-right[
+  .font120[Réduction de 15% de l'aire de la cellule]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+#### Augmentation et diminution des aires de distribution
+
+<br>
+
+<div style="padding: 0em 0em 0em 0em !important;">$$Augmentation: \frac{E_t}{A_{t-1}}, \;\; E_t = somme \; des \; augmentations$$</div>
+
+--
+
+<br>
+
+<div style="padding: 0em 0em 0em 0em !important;">$$Diminution: \frac{C_t}{A_{t-1}}, \;\; C_t = somme \; des \; réductions$$</div>
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
+
+.div-top[
+  .center[
+    ![:scale 80%;](images/method/delta_cardinalis.png)
+  ]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
+
+.div-top[
+  .center[
+    ![:scale 80%;](images/method/split_index.png)
+  ]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
+
+.div-top[
+  .center[
+    ![:scale 75%;](images/method/composite_index.png)
+  ]
+]
+
+---
+
+class: middle, center, inverse
+
+# Résultats
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+---
+
+# Résultats
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+- 17 espèces:
+ 
+  - 11 **insectivores aériens**
+  - 6 **oiseaux de proie**
+
+--
+
+.center[
+  ![:scale 80%](images/canada/birds_subset.svg)
+]
+
+.cite[ICOAN 2019]
+
+---
+
+# Résultats
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+#### Objectifs 2: Documenter les changements d'aires de distribution
+
+.center[
+  ![](images/results/quebec.png)
+]
+
+---
+
+# Résultats
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+#### Objectifs 2: Documenter les changements d'aires de distribution
+
+.pull-left[
+  ![](images/results/col.png)
+]
+
+.pull-right[
+  ![](images/results/ext.png)
+]
+
+---
+
+# Résultats
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+#### Objectifs 2: Documenter les changements d'aires de distribution
+
+.center[
+  ![](images/results/quebec_delta.png)
+]
+
+---
+
+# Résultats
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+#### Objectifs 3: Comparer les groupes fonctionnels
+
+.center[
+  ![](images/results/quebec_groups.png)
+]
+
+---
+
+# Résultats
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![](images/results/quebec_stel.png)
+]
+
+---
+
+# Résultats
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![](images/results/quebec_stel2.png)
+]
+
+---
+
+# Résultats
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.pull-left[
+  ![](images/results/map2000.png)
+]
+
+.pull-right[
+  ![](images/results/map2017.png)
+]
+
+---
+
+# Limites
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.font120[
+- Données science citoyenne: **nombreux biais**
+
+- Bruit dans les modèles:
+  - Qualité de l'indicateur dépend directement de la qualité des modèles
+
+- Pratiquement aucune information pour le nord du Québec
+
+- Aucune incertitude sur l'indice
+]
+
+---
+
+# Avantages vs l'Indice Planète Vivante
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.font120[
+- Utilisation des **données d'occurrence**:
+
+  - Potentiel de calculer l'indice avec un **plus grand nombre d'espèce**
+
+  - **Plus grande couverture temporelle** pour **chaque espèce**
+]
+
+---
+
+# Avantages vs l'Indice Planète Vivante
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.font120[
+- Modèles de **distribution d'espèces**
+
+  - Observer les changements dans **l'espace**
+
+  - Observer les **augmentations/réductions** d'aires de distribution
+
+  - **Incertitude** sur le **modèle** et sur la **moyenne**
+]
+
+--
+
+.font120[
+- Application: **Prédictions** dans le **temps**
+]
+
+---
+
+# Remerciements
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.pull-left[
+.font120[**Superviseur:**]
+
+Dominique Gravel
+
+<br>
+
+.font120[**Comité d’encadrement:**]
+
+Isabelle Laforest-Lapointe
+
+Mark Vellend
+
+<br>
+
+.font120[**Membres du laboratoire Gravel et de Biodiversité Québec**]
+]
+
+.pull-right[
+  
+![:scale 90%;](images/IE_logo_couleur.png)
+
+![:scale 90%;](images/Bios2_long_FR.png)
+
+![:scale 90%;](images/quebec/bdqc.svg)
+
+]
+
+
+---
+
+################################################################################################################################
+################################################################################################################################
+################################################################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 # Méthodes du LPI
@@ -292,35 +1108,15 @@ Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus déve
 <br>
 
 .font120[
-  - Ramène la tendance de population avec la première année à 1
-]
+- Pour chaque année:
+  
+  - Calcul les taux de croissance de chaque espèce séparemment
+  
+  - Moyenne des taux de croissance de chaque espèce
+  
+  - Multiplie cette moyenne à la valeur de l'indice de l'année précédente
 
-<br>
-
-.font120[
-  - On inclut les autres populations en faisant une moyenne des tendances de chaque population pour chaque année
-]
-
----
-
-# Le LPI au niveau global
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-<br>
-
-.center[
-  ![:scale 80%;](images/global/lpi.png)
-]
-
----
-
-# Le LPI au niveau global
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-<br>
-
-.center[
-  ![:scale 90%;](images/global/lpi_regions.png)
+  - Première année: indice de 1
 ]
 
 ---
@@ -347,616 +1143,24 @@ Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus déve
 
 ---
 
-# Le LPI au Canada
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.font120[**Indice planète vivante**]
-
-<br>
-
-.center[
-  ![:scale 90%](images/canada/lpi_can.svg)
-]
-
-.cite[WWF Canada [2020]]
-
----
-
-# Le LPI au Canada
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.font120[**Indice des espèces canadiennes**]
-
-<br>
-
-.center[
-  ![:scale 85%](images/canada/iec.png)
-]
-
-.cite[Environnement Canada [2019]]
-
----
-
-# Oiseaux
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-<br>
-
-.center[
-  ![](images/canada/birds.svg)
-]
-
----
-
-# Les suivis de biodiversité au Québec
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-<br>
-
-- .font120[Orientation du gouvernement]
-
->.font120[**Évaluation** de la **biodiversité** et **élaboration** d’un **réseau de suivi**]
-
---
-
-- .font120[**Aucun suivi** de biodiversité à **long terme**]
-
---
-
-- .font120[Nécessité d'avoir des indicateurs de biodiversité afin que le Québec respecte ses engagements]
-
-???
-
-C'est important d'avoir ce genre de suivi, surtout que l'évaluation de la biodiversité et l'élaboration d'un réseau de suivi de la biodiversité fait partie des orientation du gouvernement en matière de biodiversité. 
-
----
-
-# Limites du LPI
+# Utilité de l'Indice Planète Vivante
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 <br>
 
 .font120[
-  - Suivis de populations difficiles à obtenir
-]
-
---
-
-.font120[
-  - N'est pas spatial (changements peuvent avoir une certaine structure spatiale)
-]
-
---
-
-.font120[
-  - On en peut voir que les changements nets (**montrer la figure**)
-]
-
-???
-
-Les données sont un problème lorsque vient le temps de calculer l'indicateur dans une province comme le Québec
-
----
-
-# Objectifs
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-<br>
-
->.font120[
-  .center[**Développer un indicateur de changement de biodiversité basé sur les données d'occurrences**]
-]
-
---
-
-<br>
-
->.font120[
-  .center[**Documenter les changements d'aires de distribution des espèces présentes au Québec**]
-]
-
---
-
-<br>
-
->.font120[
-  .center[**Comparer les changements de biodiversité de divers groupes taxonomiques**]
-]
-
----
-
-class: middle, center, inverse
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[![:scale 95%; position:relative; top: 4.5em;](images/pipeline/pipeline1.svg)]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[![:scale 95%; position:relative; top: 4.5em;](images/pipeline/pipeline2.svg)]
-
-???
-
-Base de données commencé en 2019, toujours en développement, notamment pour ce qui est de la validation des données et de la taxonomie, et de l'injection de données. 
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline2.svg)]
-
-.div-top[
-.font120[
-  - **Standard d'informations** pour les observations sur la biodiversité au Québec
+- Indicateur très utilisé par la Convention sur la Diversité Biologique
 ]
 
 .font120[
-- Proviennent de **plusieurs sources**:
-  - Gouvernementales
-  - Bases de données ouvertes (e.g. GBIF)
-  - Science citoyenne (e.g. eBird)
+- Beaucoup de travail sur son développement
 ]
 
 .font120[
-  - 130 millions d'occurrences de plusieurs centaines d'espèces
-]
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[![:scale 95%; position:relative; top: 4.5em;](images/pipeline/pipeline3.svg)]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
-]
-
-.center[
-  ![:scale 45%; position: relative; top: -4em;](images/method/spoly.png)
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
-]
-
-.center[
-  ![:scale 45%; position: relative; top: -4em;](images/method/spolypts.png)
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
-]
-
-.pull-left-top[
-.font120[
-- eBird
-
-- Atlas des Oiseaux Nicheurs
-
-- Relevé des Oiseaux Nicheurs
-]
-]
-
-.pull-right[
-  ![:scale 90%; position:relative; top: -4em;](images/method/spolypts.png)
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
-]
-
-.pull-left-top[
-.font120[
-- eBird
-
-- Atlas des Oiseaux Nicheurs
-
-- Relevé des Oiseaux Nicheurs
-
-- Près de **huit millions** de points d'échantillonnages **exhaustifs** **(1990 à 2020)**
-]
-]
-
-.pull-right[
-  ![:scale 90%; position:relative; top: -4em;](images/method/spolypts.png)
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
-]
-
-.div-top[
-
-.font120[
-  - Modèle suppose qu'il y a équilibre entre espèce et environnement. On souhaite voir les changements d'aires de distribution causées par les changements d'environnement. 
-]
-
-<br>
-
-.font120[
-  - On veut décrire la dfistribution de l'espèce et non modéliser l'habitat disponible de l'espèce
-]
-
-<br>
-
-.font120[
-  - Donc, on veut utiliser l'espace et le temps
-]
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
-]
-
-.div-top[
-  .font120[
-    **Autocorrélation spatiale**
-  ]
-]
-
-.center[
-  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr1.svg)
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
-]
-
-.div-top[
-  .font120[
-    **Autocorrélation spatiale**
-  ]
-]
-
-.center[
-  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr2.svg)
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
-]
-
-.div-top[
-  .font120[
-    **Autocorrélation spatiale**
-  ]
-]
-
-.center[
-  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr3.svg)
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
-]
-
-.div-top[
-  .font120[
-    **Autocorrélation spatiale**
-  ]
-]
-
-.center[
-  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr4.svg)
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
-]
-
-.div-top[
-  .font120[
-    **Lisser distribution dans le temps**
-  ]
-]
-
-.center[
-  ![:scale 65%; position: relative; top: -3em;](images/method/time_corr.svg)
-]
-
---
-
-<br>
-
-.div-top[
-.font120[
-  > **Équivalent du GAM pour le LPI**
-]
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[![:scale 95%; position:relative; top: 4.5em;](images/pipeline/pipeline4.svg)]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
-
-.div-top[
-.center[
-  ![:scale 50%;](images/method/cardinalis_cardinalis.gif)
-]
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
-
-<br>
-
-.div-top[
-.center[
-  ![:scale 65%;](images/bdi/calc_aire1.svg)
-]
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
-
-<br>
-
-.div-top[
-.center[
-  ![:scale 65%;](images/bdi/calc_aire2.svg)
-]
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
-
-.div-top[
-.center[
-  ![](images/method/areas.png)
-]
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
-
-.div-top[
-  .center[
-    ![:scale 80%;](images/method/index_cardinalis.png)
-  ]
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
-
-.div-top[
-  .center[
-    ![:scale 80%;](images/method/delta_cardinalis.png)
-  ]
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
-
-.div-top[
-  .center[
-    ![:scale 80%;](images/method/split_index.png)
-  ]
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
-
-.div-top[
-  .center[
-    ![:scale 80%;](images/method/composite_index.png)
-  ]
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
-
-.font120[
-  - Visualiser expansion/contraction de l'aire de distribution pour chaque cellule
-]
-
-<br>
-
-.font120[
-  - Permet de voir les changements sur l'ensemble du territoire
-]
-
----
-
-class: middle, center, inverse
-
-# Résultats
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
----
-
-# Résultats
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![](images/results/quebec.png)
-]
-
----
-
-# Résultats
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![](images/results/quebec_delta.png)
-]
-
----
-
-# Résultats
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 55%](images/results/col.png)
-]
-
----
-
-# Résultats
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 55%](images/results/ext.png)
-]
-
----
-
-# Résultats
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![](images/results/quebec_species.png)
-]
-
----
-
-# Discussion
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.font120[
-- Les augmentations plus faciles à visualiser que les contractions (agrégation des données?)
+- Un des plus connus
 ]
 
 .font120[
-  - Certains modèles ne convergent pas
+- Simple à comprendre
 ]
 
-.font120[
-- Pratiquement pas d'informations au nord
-  - Calculer l'indice seulement pour le sud du Québec?
-  - Ajouter données de modèles d'experts
-  - Doit avoir une incertitude
-]
-
----
-
-# Discussion
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-<br>
-
-- L'utilisation des SDMs permet d'avoir une incertitude plus "réaliste" que l'incertitude de lPI:
-  - Incertitude sur la moyenne
-  - Incertitude sur le modèle:
-    - biais d'obs / détection (science citoyenne)
-    - enviro
-    - paramétrisation du modèle
-    - processus (random pop fluctuations)
-
----
-
-# Conclusion
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-<br>
-
-Indicateurs qui utilisent aires de distribution
-
-- On peut observé les changements brutes (expansion/contraction)
-- L'indice peut être spatialisé
-
-- Permettrait de faire des prédictions sur l'indicateur dans le temps:
-  - Scénario de changements climatiques ou d'utilisation du territoire
-  - Important dans l'optique d'avoir des objectifs de conservation de la biodiversité
