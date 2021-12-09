@@ -355,21 +355,6 @@ Ces changements se produisent dans l'espace, prend un indicateur qui permet cett
 
 ---
 
-# Les suivis de biodiversité au Québec
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-<br>
-
-.pull-left[
-  ![](images/quebec/lpi.svg)
-]
-
-.pull-right[
-  ![](images/quebec/berteaux2018.svg)
-]
-
----
-
 # Objectifs
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
@@ -567,7 +552,7 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 
 .pull-left-top[
 .font120[
-- Environ **huit millions** de points d'échantillonnages **exhaustifs** **(1990 à 2020)**
+- Environ **huit millions** de points d'échantillonnages **exhaustifs**
 
 - Moyenne de **260000 points/année**
 
@@ -929,23 +914,6 @@ Initiative de conservation des oiseaux de l'amérique du nord
 
 .font120[
   - Données science citoyenne: **nombreux biais**
-]
-
----
-
-# Indicateur de Distribution de Biodiversité
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-#### Objectif principal: Développer un indicateur de changements de biodiversité basé sur les données d'occurrences
-
-.pull-left[
-  ![:scale 75%;](images/method/spolypts.png)
-]
-
---
-
-.pull-right[
-  ![](images/results/col.png)
 ]
 
 ---
