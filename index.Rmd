@@ -575,14 +575,8 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
   ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
 ]
 
-.div-top[
-  .font120[
-    **Autocorrélation spatiale**
-  ]
-]
-
 .center[
-  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr1.svg)
+  ![:scale 55%; position: relative; top: -3em;](images/method/spat_corr1.svg)
 ]
 
 ---
@@ -594,14 +588,8 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
   ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
 ]
 
-.div-top[
-  .font120[
-    **Autocorrélation spatiale**
-  ]
-]
-
 .center[
-  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr4.svg)
+  ![:scale 55%; position: relative; top: -3em;](images/method/spat_corr4.svg)
 ]
 
 ---
@@ -696,6 +684,10 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 .center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
+
+.div-top[
+#### Réductions des aires de distribution
+]
 
 .div-top[
 .center[

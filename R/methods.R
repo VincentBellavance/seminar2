@@ -26,6 +26,8 @@ plot_theme <- function() {
 )
 }
 
+cardinalis <- raster::stack("data/cardinalis.gri")
+
 ##################
 # Save qc as svg
 ##################
@@ -180,7 +182,7 @@ p <- ggplot2::ggplot() +
                          lty = 1,
                          col = "grey20",
                          lwd = .2) +
-     ggplot2::labs(y = "Aire de distribution (km²)", 
+     ggplot2::labs(y = "Valeur de l'indice", 
                    x = "Années", 
                    title = "Indice de Distribution Biodiversité") +
      ggplot2::scale_y_continuous(breaks = c(0.5, 1, 1.5, 2, 5, 10, 20), trans = "log", limits = c(0.5,20)) +
@@ -223,7 +225,7 @@ p <- ggplot2::ggplot() +
                          lty = 1,
                          col = "grey20",
                          lwd = .2) +
-     ggplot2::labs(y = "Aire de distribution (km²)", 
+     ggplot2::labs(y = "Valeur de l'indice", 
                    x = "Années", 
                    title = "Indice de Distribution Biodiversité") +
      ggplot2::scale_y_continuous(breaks = c(0.5, 1, 1.5, 2, 5, 10, 20), trans = "log", limits = c(0.5,20)) +
