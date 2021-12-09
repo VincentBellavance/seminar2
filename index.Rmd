@@ -620,34 +620,6 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 ]
 
 .div-top[
-
-.font120[
-  - Modèle suppose qu'il y a équilibre entre espèce et environnement. On souhaite voir les changements d'aires de distribution causées par les changements d'environnement. 
-]
-
-<br>
-
-.font120[
-  - On veut décrire la dfistribution de l'espèce et non modéliser l'habitat disponible de l'espèce
-]
-
-<br>
-
-.font120[
-  - Donc, on modélise seulement avec l'espace et le temps
-]
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
-]
-
-.div-top[
   .font120[
     **Autocorrélation spatiale**
   ]
@@ -1079,24 +1051,33 @@ Mark Vellend
 
 ---
 
-# Utilité de l'Indice Planète Vivante
+# Taxonomie du LPI au Québec
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 <br>
 
-.font120[
-- Indicateur très utilisé par la Convention sur la Diversité Biologique
-]
+.font120[**Mammifères**: 20]
 
-.font120[
-- Beaucoup de travail sur son développement
-]
+.font120[**Poissons**: 68]
 
-.font120[
-- Un des plus connus
-]
+.font120[**Reptiles**: 1]
 
-.font120[
-- Simple à comprendre
-]
+.font120[**Amphibiens**: 5]
 
+.font120[**Oiseaux**: lon/lat sur centroïde du Canada]
+
+
+---
+
+# Taxonomie du LPI au Canada
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.font120[**Mammifères:** 100 (51%)]
+
+.font120[**Poissons:** 357 (34%)]
+
+.font120[**Herpétofaune:** 37 (43%)]
+
+.font120[**Oiseaux**: 389 (86%)]
