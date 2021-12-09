@@ -77,7 +77,7 @@ class: middle, title-slide
 
 .pull-right[
   .font120[
-    Plateforme intergouvernementale scientifique et politique sur la biodiversité et les services écosystémiques
+    **Plateforme intergouvernementale** scientifique et politique sur la **biodiversité** et les **services écosystémiques**
   ]
 ]
 
@@ -113,13 +113,11 @@ class: middle, title-slide
 
 .cite[CBD 2020]
 
---
-
 <br><br>
 
 .pull-right[
 .font120[
-- Parties de la Convention sur la Diversité Biologique
+- Parties de la **Convention** sur la **Diversité Biologique**
 - 160 pays signataires
 - 196 parties
 - Vise la conservation de la biodiversité.
@@ -285,9 +283,11 @@ Ils servent à représenter les changements de manière simplifiée
 
 <br>
 
-- .font120[Orientation du gouvernement sur la protection de la biodiversité]
+- .font120[Orientations gouvernementales en matière de diversité biologique]
 
 >.font120[**Évaluation** de la **biodiversité** et **élaboration** d’un **réseau de suivi**]
+
+.cite[]
 
 --
 
@@ -381,7 +381,7 @@ C'est important d'avoir ce genre de suivi, surtout que l'évaluation de la biodi
 <br>
 
 >.font120[
-  .center[**Comparer les changements d'aires de distribution de divers groupes fonctionnels d'oiseaux**]
+  .center[**Comparer les changements d'aires de distribution de divers groupes fonctionnels d'oiseaux du Québec**]
 ]
 
 ---
@@ -407,15 +407,6 @@ class: middle, center, inverse
 
 .center[
   ![:scale 50%;](images/method/qc2.svg)
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 100%;](images/method/qc_model1.svg)
 ]
 
 ---
@@ -580,15 +571,19 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-<br>
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
 
-- **Description** de la distribution des espèces
+.div-top[
+  .font120[
+    **Autocorrélation spatiale**
+  ]
+]
 
-- Utilise **seulement l'espace** comme covariables
-
---
-
-- **Un modèle par année** de 1992 à 2018
+.center[
+  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr1.svg)
+]
 
 ---
 
@@ -601,9 +596,24 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 
 .div-top[
   .font120[
-    **Lisser **
+    **Autocorrélation spatiale**
   ]
 ]
+
+.center[
+  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr4.svg)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+<br>
 
 .center[
   ![:scale 65%; position: relative; top: -3em;](images/method/time_corr.svg)
@@ -660,34 +670,24 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-#### Augmentation et diminution des aires de distribution
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
 
---
+.div-top[
+#### Augmentation des aires de distribution
+]
 
-.pull-left[
+.div-top[
+.center[
+.pull-left-margin[
   ![:scale 90%](images/bdi/col1.svg)
 ]
 
---
-
-<br><br>
+<br>
 
 .pull-right[
   .font120[Augmentation de 11% de l'aire de la cellule]
 ]
-
---
-
-.pull-left[
-  ![:scale 90%; position: relative; top: 1em;](images/bdi/ext1.svg)
 ]
-
---
-
-<br><br><br><br><br><br><br><br>
-
-.pull-right[
-  .font120[Réduction de 15% de l'aire de la cellule]
 ]
 
 ---
@@ -695,17 +695,44 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-#### Augmentation et diminution des aires de distribution
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
+
+.div-top[
+.center[
+.pull-left-margin[
+  ![:scale 90%; position: relative; top: 3em;](images/bdi/ext1.svg)
+]
 
 <br>
 
-<div style="padding: 0em 0em 0em 0em !important;">$$Augmentation: \frac{E_t}{A_{t-1}}, \;\; E_t = somme \; des \; augmentations$$</div>
+.pull-right[
+  .font120[Réduction de 15% de l'aire de la cellule]
+]
+]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline4.svg)]
+
+.div-top[
+#### Augmentation et diminution des aires de distribution
+]
+
+<br>
+
+.div-top[
+Augmentation: $\frac{E_t}{A_{t-1}}, \;\; E_t$ = Somme des augmentations
+]
 
 --
 
 <br>
 
-<div style="padding: 0em 0em 0em 0em !important;">$$Diminution: \frac{C_t}{A_{t-1}}, \;\; C_t = somme \; des \; réductions$$</div>
+Diminution: $\frac{C_t}{A_{t-1}}, \;\; C_t$ = Somme des réductions
 
 ---
 
@@ -776,7 +803,7 @@ class: middle, center, inverse
 # Résultats
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-#### Objectifs 2: Documenter les changements d'aires de distribution
+#### Objectifs: Documenter les changements d'aires de distribution
 
 .center[
   ![](images/results/quebec.png)
@@ -787,7 +814,7 @@ class: middle, center, inverse
 # Résultats
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-#### Objectifs 2: Documenter les changements d'aires de distribution
+#### Objectifs: Documenter les changements d'aires de distribution
 
 .pull-left[
   ![](images/results/col.png)
@@ -802,7 +829,7 @@ class: middle, center, inverse
 # Résultats
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-#### Objectifs 2: Documenter les changements d'aires de distribution
+#### Objectifs: Documenter les changements d'aires de distribution
 
 .center[
   ![](images/results/quebec_delta.png)
@@ -813,7 +840,7 @@ class: middle, center, inverse
 # Résultats
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-#### Objectifs 3: Comparer les groupes fonctionnels
+#### Objectifs: Comparer les groupes fonctionnels
 
 .center[
   ![](images/results/quebec_groups.png)
@@ -858,7 +885,7 @@ class: middle, center, inverse
 <br>
 
 .font120[
-- **Bruit** dans les modèles:
+- **Bruit** dans les modèles
 ]
 
 --
@@ -878,7 +905,6 @@ class: middle, center, inverse
 .font120[
   - Données science citoyenne: **nombreux biais**
 ]
-
 
 ---
 
@@ -934,7 +960,7 @@ class: middle, center, inverse
 --
 
 .font120[
-- **Prédictions** de l'indicateur dans le temps
+- **Prédictions** de l'indice dans le temps
 
   - Scénarios de **perturbations** ou **d'actions de conservation**
 ]
@@ -1094,39 +1120,54 @@ Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus déve
 
 ---
 
-# Méthodes
+# Épervier de Cooper
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 .center[
-  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
-]
-
-.div-top[
-  .font120[
-    **Autocorrélation spatiale**
-  ]
-]
-
-.center[
-  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr1.svg)
+  ![](images/results/icoan_Accipiter%20cooperii.png)
 ]
 
 ---
 
-# Méthodes
+# Autour des palombes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 .center[
-  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+  ![](images/results/icoan_Accipiter%20gentilis.png)
 ]
 
-.div-top[
-  .font120[
-    **Autocorrélation spatiale**
-  ]
-]
+---
+
+# Buse à queue rousse
+<hr width="100%" align="left" size="1" color="orange"></hr>
 
 .center[
-  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr4.svg)
+  ![](images/results/icoan_Buteo%20jamaicensis.png)
 ]
 
+---
+
+# Urubu à tête rouge
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![](images/results/icoan_Cathartes%20aura.png)
+]
+
+---
+
+# Faucon pèlerin
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![](images/results/icoan_Falco%20peregrinus.png)
+]
+
+---
+
+# Pygargue à tête blanche
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![](images/results/icoan_Haliaeetus%20leucocephalus.png)
+]

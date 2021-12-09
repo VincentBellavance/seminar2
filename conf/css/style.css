@@ -197,7 +197,7 @@ a {
     position: relative;
     float: left;
     width: 47%;
-    top: -9vh;
+    top: -4em;
   }
 
   .center2 {
@@ -217,6 +217,16 @@ a {
   .div-top {
     position: relative;
     top: -4em;
+  }
+
+  .pull-left-margin {
+    float: left;
+    width: 47%;
+  }
+
+  p.pull-left-margin {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
 /* Font size */
