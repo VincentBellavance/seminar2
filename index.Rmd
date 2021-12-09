@@ -49,7 +49,7 @@ class: middle, title-slide
 
 <hr width="60%" align="left" size="1" color="orange"></hr>
 
-## Suivre les changements d'aire <br/> de distribution des espèces du Québec dans le temps
+## Suivre les changements des aires <br/> de distribution des espèces du Québec dans le temps
 
 ### Vincent Bellavance, .small[étudiant à la maîtrise]
 
@@ -82,6 +82,10 @@ class: middle, title-slide
 ]
 
 .cite[IPBES 2019]
+
+???
+
+Équivalent pour la biodiversité du Groupe International d'Expert sur le Climat
 
 ---
 
@@ -143,8 +147,6 @@ class: middle, title-slide
 
 ???
 
-La production de ces deux rapports a accéléré le développement d'indicateurs de biodiversité entamé lors des deux dernières décennies.
-
 ---
 
 # Changements de biodiversité
@@ -162,6 +164,10 @@ La production de ces deux rapports a accéléré le développement d'indicateurs
 
 .cite[CBD 2020]
 
+???
+
+L'écriture de ces rapports ont amené beaucoup de chercheurs dans les dernières 15 années à développer des outils permettant de mesurer et visualiser les changements de biodiversité
+
 ---
 # Les indicateurs de biodiversité
 <hr width="100%" align="left" size="1" color="orange"></hr>
@@ -174,7 +180,7 @@ La production de ces deux rapports a accéléré le développement d'indicateurs
 
 ???
 
-Les indicateurs font parties des outils qui servent à mesurer les changements de biodiversité.
+Mesurent des changements complexes et les représenter de manière simplifiée
 
 ---
 
@@ -188,8 +194,6 @@ Les indicateurs font parties des outils qui servent à mesurer les changements d
 ]
 
 ???
-
-Ils servent à représenter les changements de manière simplifiée
 
 ---
 
@@ -220,7 +224,9 @@ Ils servent à représenter les changements de manière simplifiée
 
 ???
 
-Ils servent à représenter les changements de manière simplifiée
+Compréhensible pour les décideurs et le grand public (sert à vérififer l'atteinte d'objectifs et de sensibiliser).
+
+Un des indicateurs les plus connus et les plus utilisés est sans aucun doute l'Indice Planète Vivante
 
 ---
 
@@ -261,6 +267,10 @@ Ils servent à représenter les changements de manière simplifiée
 
 .cite[WWF 2020]
 
+???
+
+Ici, figure du dernier rapport. Cette figure représente la diminution moyenne de la taille de population des vertébrés sur lequel on a des données. 
+
 ---
 
 # Indice des espèces canadiennes
@@ -276,6 +286,10 @@ Ils servent à représenter les changements de manière simplifiée
 
 .cite[Environnement Canada [2019]]
 
+???
+
+Le développement de ces indices fait partie des engagements du Canada en matière de protection de la biodiversité
+
 ---
 
 # Les suivis de biodiversité au Québec
@@ -287,8 +301,6 @@ Ils servent à représenter les changements de manière simplifiée
 
 >.font120[**Évaluation** de la **biodiversité** et **élaboration** d’un **réseau de suivi**]
 
-.cite[]
-
 --
 
 .center[
@@ -297,7 +309,7 @@ Ils servent à représenter les changements de manière simplifiée
 
 ???
 
-C'est important d'avoir ce genre de suivi, surtout que l'évaluation de la biodiversité et l'élaboration d'un réseau de suivi de la biodiversité fait partie des orientation du gouvernement en matière de biodiversité. 
+Présentement: Développement de Biodiversité Québec. Il n'existe aucun indicateur. 
 
 ---
 
@@ -316,14 +328,11 @@ C'est important d'avoir ce genre de suivi, surtout que l'évaluation de la biodi
 
 .cite[Berteaux et al. 2018 Sci. Rep.]
 
----
+???
 
-# Les suivis de biodiversité au Québec
-<hr width="100%" align="left" size="1" color="orange"></hr>
+On s'attend à avoir des déplacements d'espèces provenant du sud.
 
-.center[
-![:scale 65%;](images/quebec/lpi.svg)
-]
+Ces changements se produisent dans l'espace, prend un indicateur qui permet cette visulisation dans l'espace.
 
 ---
 
@@ -338,9 +347,9 @@ C'est important d'avoir ce genre de suivi, surtout que l'évaluation de la biodi
 
 .pull-right[
 .font120[
-- Peu de suivis de population à long terme
+- On ne peut pas extrapoler dans l'espace
 
-- On ne peut extrapoler dans l'espace
+- Peu de suivis de population à long terme
 ]
 ]
 
@@ -417,6 +426,10 @@ class: middle, center, inverse
 .center[
   ![:scale 100%;](images/method/qc_model2.svg)
 ]
+
+???
+
+Explication du SDM: La Québec est divisé en grille avec des cellules d'une taille égale. On obtient une probabilité d'occurrence pour chaque cellule. 
 
 ---
 
@@ -592,6 +605,10 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
   ![:scale 55%; position: relative; top: -3em;](images/method/spat_corr4.svg)
 ]
 
+???
+
+Tout est semblable dans ce cercle, mais les points les plus près sont plus semblables que ceux plus éloignés
+
 ---
 
 # Méthodes
@@ -607,12 +624,20 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
   ![:scale 65%; position: relative; top: -3em;](images/method/time_corr.svg)
 ]
 
+???
+
+Irrégularités d'échantillonnages entre les années, on prend des fenêtres temporelles afin d'obtenir des variations moins abruptes de l'indicateur. 
+
 ---
 
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 .center[![:scale 95%; position:relative; top: 4.5em;](images/pipeline/pipeline4.svg)]
+
+???
+
+Pour vous expliquer comment l'indicateur est calculé, je vais passer à travers un exemple avec le Cardinal Rouge
 
 ---
 
@@ -703,6 +728,10 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 ]
 ]
 
+???
+
+Ces changements peuvent être visualisés sur une carte, où chaque cellule à une valeur d'augmentation et de diminution. Ou on peut observer ces changements sur une série temporelle
+
 ---
 
 # Méthodes
@@ -789,6 +818,10 @@ class: middle, center, inverse
 ]
 
 .cite[ICOAN 2019]
+
+???
+
+Initiative de conservation des oiseaux de l'amérique du nord
 
 ---
 
