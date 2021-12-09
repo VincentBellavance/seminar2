@@ -908,37 +908,52 @@ class: middle, center, inverse
 
 ---
 
-# Avantages
+# Indicateur de Distribution de Biodiversité
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-<br>
+#### Objectif principal: Développer un indicateur de changements de biodiversité basé sur les données d'occurrences
 
 .pull-left[
-.font120[
-- Inclusion d'un **plus grand nombre d'espèces**
+  ![:scale 75%;](images/method/spolypts.png)
+]
 
-- **Plus grande couverture temporelle** pour **chaque espèce**
-]
-]
+--
 
 .pull-right[
-  ![:scale 80%;](images/method/spolypts.png)
+  ![](images/results/col.png)
 ]
 
 ---
 
-# Avantages
+# Indicateur de Distribution de Biodiversité
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-<br>
+#### Objectif principal: Développer un indicateur de changements de biodiversité basé sur les données d'occurrences
+
+.pull-left[
+  ![:scale 75%;](images/method/spolypts.png)
+]
+
+.pull-right[
+.font120[
+- Inclusion d'un **plus grand nombre d'espèces**
+
+- **Grande couverture temporelle** pour **chaque espèce**
+]
+]
+
+---
+
+# Indicateur de Distribution de Biodiversité
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+#### Objectif principal: Développer un indicateur de changements de biodiversité basé sur les données d'occurrences
 
 .pull-left[
 .font120[
 - Changements dans **l'espace**
 
 - **Augmentations/réductions** d'aires de distribution
-
-- **Incertitude** sur le **modèle** et sur la **moyenne**
 ]
 ]
 
@@ -948,7 +963,7 @@ class: middle, center, inverse
 
 ---
 
-# Possibles applications
+# Applications potentielles
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 <br>
@@ -958,6 +973,8 @@ class: middle, center, inverse
 ]
 
 --
+
+<br>
 
 .font120[
 - **Prédictions** de l'indice dans le temps
