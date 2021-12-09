@@ -45,7 +45,7 @@ class: middle, title-slide
 <div class="lab-logo"></div>
 <div class="uni-logo"></div>
 
-# Indice Distribution Biodiversité
+# Indice de Distribution de Biodiversité
 
 <hr width="60%" align="left" size="1" color="orange"></hr>
 
@@ -226,50 +226,6 @@ Ils servent à représenter les changements de manière simplifiée
 
 ---
 
-# Développement d'indicateurs
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.pull-left[
-  <br><br>
-  .center2[
-    ![:scale 100%](images/indicators/bip.jpg)
-  ]
-]
-
-<br><br>
-
-.pull-right[
-.font120[**Biodiversity indicators partnership**]
-
-.font120[
-  Approuvée par la Convention sur la Diversité Biologique
-]
-
-]
-
----
-
-# Développement d'indicateurs
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.pull-left[
-  <br><br>
-  .center2[
-    ![:scale 100%](images/indicators/bip.jpg)
-  ]
-]
-
-.pull-right[
-  <br>
-  ![:scale 90%](images/bip_themes/themes.svg)
-]
-
-???
-
-Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus développé en terme de nombre d'indicateurs est définitivement celui des espèces. 
-
----
-
 # Indice Planète Vivante
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
@@ -296,7 +252,7 @@ Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus déve
 
 ---
 
-# Indice Planète Vivante au niveau global
+# Indice Planète Vivante
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
 <br>
@@ -312,7 +268,7 @@ Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus déve
 # Indice des espèces canadiennes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.font120[**(Environnement Canada)**]
+.font120[**Environnement Canada**]
 
 <br>
 
@@ -329,7 +285,7 @@ Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus déve
 
 <br>
 
-- .font120[Orientation du gouvernement en réponse au Plan stratégique 2011-2020 de la Convention sur la Diversité Biologique]
+- .font120[Orientation du gouvernement sur la protection de la biodiversité]
 
 >.font120[**Évaluation** de la **biodiversité** et **élaboration** d’un **réseau de suivi**]
 
@@ -351,8 +307,6 @@ C'est important d'avoir ce genre de suivi, surtout que l'évaluation de la biodi
 .pull-left[
   ![](images/quebec/berteaux_title.png)
 ]
-
---
 
 <br>
 
@@ -382,14 +336,27 @@ C'est important d'avoir ce genre de suivi, surtout que l'évaluation de la biodi
   ![](images/quebec/lpi.svg)
 ]
 
---
-
 .pull-right[
 .font120[
-- Peu de longs suivis de population
+- Peu de suivis de population à long terme
 
 - On ne peut extrapoler dans l'espace
 ]
+]
+
+---
+
+# Les suivis de biodiversité au Québec
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.pull-left[
+  ![](images/quebec/lpi.svg)
+]
+
+.pull-right[
+  ![](images/quebec/berteaux2018.svg)
 ]
 
 ---
@@ -400,7 +367,7 @@ C'est important d'avoir ce genre de suivi, surtout que l'évaluation de la biodi
 <br>
 
 >.font120[
-  .center[**Développer un indicateur de changement de biodiversité basé sur les données d'occurrences**]
+  .center[**Développer un indicateur de changements de biodiversité basé sur les données d'occurrences**]
 ]
 
 --
@@ -408,15 +375,13 @@ C'est important d'avoir ce genre de suivi, surtout que l'évaluation de la biodi
 <br>
 
 >.font120[
-  .center[**Documenter les changements d'aires de distribution des espèces présentes au Québec**]
+  .center[**Documenter les changements d'aires de distribution des espèces d'oiseaux présentes au Québec**]
 ]
-
---
 
 <br>
 
 >.font120[
-  .center[**Comparer les changements d'aires de distribution de divers groupes fonctionnels**]
+  .center[**Comparer les changements d'aires de distribution de divers groupes fonctionnels d'oiseaux**]
 ]
 
 ---
@@ -615,19 +580,15 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 # Méthodes
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.center[
-  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
-]
+<br>
 
-.div-top[
-  .font120[
-    **Autocorrélation spatiale**
-  ]
-]
+- **Description** de la distribution des espèces
 
-.center[
-  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr1.svg)
-]
+- Utilise **seulement l'espace** comme covariables
+
+--
+
+- **Un modèle par année** de 1992 à 2018
 
 ---
 
@@ -640,26 +601,7 @@ Base de données commencé en 2019, toujours en développement, notamment pour c
 
 .div-top[
   .font120[
-    **Autocorrélation spatiale**
-  ]
-]
-
-.center[
-  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr4.svg)
-]
-
----
-
-# Méthodes
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.center[
-  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
-]
-
-.div-top[
-  .font120[
-    **Lisser distribution dans le temps**
+    **Lisser **
   ]
 ]
 
@@ -913,64 +855,88 @@ class: middle, center, inverse
 # Limites
 <hr width="100%" align="left" size="1" color="orange"></hr>
 
-.font120[
-- Données science citoyenne: **nombreux biais**
+<br>
 
+.font120[
 - **Bruit** dans les modèles:
-  - Qualité de l'indicateur dépend directement de la qualité des modèles
-
-- Pratiquement **aucune information** pour le **nord du Québec**
-
-- **Aucune incertitude** sur l'indice
-]
-
----
-
-# Avantages vs l'Indice Planète Vivante
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-<br>
-
-.font120[
-- Utilisation des **données d'occurrence**:
-
-  - Potentiel de calculer l'indice avec un **plus grand nombre d'espèce**
-
-  - **Plus grande couverture temporelle** pour **chaque espèce**
-]
-
----
-
-# Avantages vs l'Indice Planète Vivante
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-<br>
-
-.font120[
-- Modèles de **distribution d'espèces**
-
-  - Observer les changements dans **l'espace**
-
-  - Observer les **augmentations/réductions** d'aires de distribution
-
-  - **Incertitude** sur le **modèle** et sur la **moyenne**
-]
-
----
-
-# Futur application
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.font120[
-- **Prédictions dans le temps**
 ]
 
 --
 
 .font120[
-  - Scénarios de **perturbations** ou **d'actions de conservation**
+  - Pratiquement **aucune information** pour le **nord du Québec**
+]
 
-  - Fixer **objectifs de conservations**
+--
+
+.font120[
+  - **Aucune incertitude** sur l'indice
+]
+
+--
+
+.font120[
+  - Données science citoyenne: **nombreux biais**
+]
+
+
+---
+
+# Avantages
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.pull-left[
+.font120[
+- Inclusion d'un **plus grand nombre d'espèces**
+
+- **Plus grande couverture temporelle** pour **chaque espèce**
+]
+]
+
+.pull-right[
+  ![:scale 80%;](images/method/spolypts.png)
+]
+
+---
+
+# Avantages
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.pull-left[
+.font120[
+- Changements dans **l'espace**
+
+- **Augmentations/réductions** d'aires de distribution
+
+- **Incertitude** sur le **modèle** et sur la **moyenne**
+]
+]
+
+.pull-right[
+  ![](images/results/col.png)
+]
+
+---
+
+# Possibles applications
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+<br>
+
+.font120[
+- Corrélations entre **augmentations/réductions** et facteurs **environnementaux** ou **anthropiques**
+]
+
+--
+
+.font120[
+- **Prédictions** de l'indicateur dans le temps
+
+  - Scénarios de **perturbations** ou **d'actions de conservation**
 ]
 
 ---
@@ -1081,3 +1047,86 @@ Mark Vellend
 .font120[**Herpétofaune:** 37 (43%)]
 
 .font120[**Oiseaux**: 389 (86%)]
+
+---
+
+# Développement d'indicateurs
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.pull-left[
+  <br><br>
+  .center2[
+    ![:scale 100%](images/indicators/bip.jpg)
+  ]
+]
+
+<br><br>
+
+.pull-right[
+.font120[**Biodiversity indicators partnership**]
+
+.font120[
+  Approuvée par la Convention sur la Diversité Biologique
+]
+
+]
+
+---
+
+# Développement d'indicateurs
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.pull-left[
+  <br><br>
+  .center2[
+    ![:scale 100%](images/indicators/bip.jpg)
+  ]
+]
+
+.pull-right[
+  <br>
+  ![:scale 90%](images/bip_themes/themes.svg)
+]
+
+???
+
+Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus développé en terme de nombre d'indicateurs est définitivement celui des espèces. 
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+.div-top[
+  .font120[
+    **Autocorrélation spatiale**
+  ]
+]
+
+.center[
+  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr1.svg)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.center[
+  ![:scale 30%; position:relative; left: 12em; top: -4.55em;](images/pipeline/pipeline3.svg)
+]
+
+.div-top[
+  .font120[
+    **Autocorrélation spatiale**
+  ]
+]
+
+.center[
+  ![:scale 55%; position: relative; top: -4em;](images/method/spat_corr4.svg)
+]
+
