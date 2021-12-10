@@ -63,49 +63,6 @@ class: middle, title-slide
 
 [<i class="fa fa-twitter fa-lg" style="color:#e7e8e2"></i> @v_bellavance](https://twitter.com/v_bellavance)
 
-
----
-
-# Changements de biodiversité
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.pull-left[
-  ![:scale 100%](images/report/ipbes.png)
-]
-
-<br><br>
-
-.pull-right[
-  .font120[
-    **Plateforme intergouvernementale** scientifique et politique sur la **biodiversité** et les **services écosystémiques**
-  ]
-]
-
-.cite[IPBES 2019]
-
-???
-
-Équivalent pour la biodiversité du Groupe International d'Expert sur le Climat
-
----
-
-# Changements de biodiversité
-<hr width="100%" align="left" size="1" color="orange"></hr>
-
-.pull-left[
-  ![:scale 100%](images/report/ipbes.png)
-]
-
-<br><br>
-
-.pull-right[
-.font120[**Déclins:**]
-
-.font120[**1 millions** d'espèces menacées d'extinction]
-]
-
-.cite[IPBES 2019]
-
 ---
 
 # Changements de biodiversité
@@ -243,9 +200,7 @@ Un des indicateurs les plus connus et les plus utilisés est sans aucun doute l'
 
 .font120[
 - Utilise les suivis de population à long terme:
-  - Mesure **directe ou indirecte** 
-  - Sur **plusieurs années** 
-  - **Même méthodologie** pour une population
+  - Mesure d'abondance d'une population au fil des ans
 ]
 
 --
@@ -1181,3 +1136,46 @@ Un indicateur peut représenter plusieurs thèmes. Le thème ayant le plus déve
 .center[
   ![](images/results/icoan_Haliaeetus%20leucocephalus.png)
 ]
+
+---
+
+# Changements de biodiversité
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.pull-left[
+  ![:scale 100%](images/report/ipbes.png)
+]
+
+<br><br>
+
+.pull-right[
+  .font120[
+    **Plateforme intergouvernementale** scientifique et politique sur la **biodiversité** et les **services écosystémiques**
+  ]
+]
+
+.cite[IPBES 2019]
+
+???
+
+Équivalent pour la biodiversité du Groupe International d'Expert sur le Climat
+
+---
+
+# Changements de biodiversité
+<hr width="100%" align="left" size="1" color="orange"></hr>
+
+.pull-left[
+  ![:scale 100%](images/report/ipbes.png)
+]
+
+<br><br>
+
+.pull-right[
+.font120[**Déclins:**]
+
+.font120[**1 millions** d'espèces menacées d'extinction]
+]
+
+.cite[IPBES 2019]
+
