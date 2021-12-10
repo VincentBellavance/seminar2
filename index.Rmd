@@ -635,10 +635,8 @@ Pour vous expliquer comment l'indicateur est calculé, je vais passer à travers
   ![:scale 90%](images/bdi/col1.svg)
 ]
 
-<br>
-
 .pull-right[
-  .font120[Augmentation de 11% de l'aire de la cellule]
+  ![:scale 48%; position: relative; top: -3.5em;](images/bdi/col_schema.svg)
 ]
 ]
 ]
@@ -657,13 +655,11 @@ Pour vous expliquer comment l'indicateur est calculé, je vais passer à travers
 .div-top[
 .center[
 .pull-left-margin[
-  ![:scale 90%; position: relative; top: 3em;](images/bdi/ext1.svg)
+  ![:scale 90%](images/bdi/ext1.svg)
 ]
 
-<br>
-
 .pull-right[
-  .font120[Réduction de 15% de l'aire de la cellule]
+  ![:scale 48%; position: relative; top: -3.5em;](images/bdi/ext_schema.svg)
 ]
 ]
 ]
@@ -691,9 +687,9 @@ Augmentation: $\frac{E_t}{A_{t-1}}, \;\; E_t$ = Somme des augmentations
 
 --
 
-<br>
-
+.div-top[
 Diminution: $\frac{C_t}{A_{t-1}}, \;\; C_t$ = Somme des réductions
+]
 
 ---
 
