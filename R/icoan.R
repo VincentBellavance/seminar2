@@ -1,6 +1,6 @@
 # Code pour figure rapports ICOAN
 
-devtools::load_all("../rbdi")
+devtools::install_github("VincentBellavance/rbdi")
 library(raster)
 library(ggplot2)
 

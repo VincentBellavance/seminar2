@@ -8,7 +8,7 @@
 # Résultat par groupe (Proie et Insectivores)
 # Comparaison avec ICOAN
 
-devtools::load_all("../rbdi")
+devtools::install_github("VincentBellavance/rbdi")
 library(raster)
 library(ggplot2)
 

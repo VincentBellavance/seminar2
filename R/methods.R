@@ -8,7 +8,7 @@
 
 # 5. Index
 
-devtools::load_all("../rbdi")
+devtools::install_github("VincentBellavance/rbdi")
 library(raster)
 library(magick)
 library(ggplot2)
